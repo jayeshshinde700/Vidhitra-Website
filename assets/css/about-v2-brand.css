@@ -1,0 +1,240 @@
+/* ==========================================================
+   VIDHITRA — ABOUT PAGE · BRAND ALIGNMENT  (about-v2-brand.css)
+   Load AFTER about-v2.css (the <link> is the last one in <head>).
+   Aligns the About page with the client brief and the Capabilities
+   page: angular/architectural shapes only, light warm backgrounds
+   with gradient overlays, one type system (Libre Franklin 600 +
+   italic emphasis). Nothing in about-v2.css is deleted, so every
+   rule here can be removed to roll a change back.
+   ========================================================== */
+
+.ab-page {
+  --ab-head: "Libre Franklin", sans-serif;
+  --ab-night: #efe3e1;      /* Get in Touch base + the V seam under "Thought Behind Our Name" */
+  --nm-bg: #fbf3ec;         /* Name section top colour + the steps seam under Values (was dark plum) */
+}
+@media (max-width: 575px) {
+  .ab-page { --nm-bg: #fbf3ec; }        /* about-v2.css reset this to dark plum on phones */
+}
+
+/* ----------------------------------------------------------
+   1 · TYPE — one system, as on the Capabilities page
+   ---------------------------------------------------------- */
+.ab-page .ab-h2 {
+  font-family: var(--ab-head) !important; font-weight: 600; letter-spacing: -0.015em;
+  font-size: clamp(28px, 3vw, 44px); line-height: 1.12; color: #2d0a2a;
+}
+.ab-page .ab-lead { color: #3a2436; }
+.ab-page .ab-win__title,
+.ab-page .ab-pcard__name,
+.ab-page .nm-statement {
+  font-family: var(--ab-head) !important; font-weight: 600; letter-spacing: -0.012em;
+}
+.ab-page .ab-pcard__name { font-size: clamp(22px, 2vw, 28px); }
+.ab-page .ab-who__quote,
+.ab-page .ab-xp__quote { font-family: var(--ab-head); font-weight: 700; }
+.ab-page .ab-who__band p { font-family: var(--ab-head); font-weight: 600; letter-spacing: -0.012em; }
+.ab-page .ab-xp__txt::first-letter { font-family: var(--ab-head); font-weight: 700; }
+.ab-page .ab-ldr__word { font-family: var(--ab-head); font-weight: 600; }
+.ab-page .nm-row { font-family: var(--ab-head); font-weight: 700; letter-spacing: 0.01em; }
+.ab-page .nm-cap__big { font-family: var(--ab-head); font-weight: 600; }
+.ab-page .ab-cta__track span { font-family: var(--ab-head); font-weight: 700; }
+.ab-page .ab-cta__title {
+  font-family: var(--ab-head) !important; font-weight: 600; letter-spacing: -0.02em;
+  font-size: clamp(36px, 5.6vw, 84px); line-height: 1.06;
+}
+/* the profile pop-up lives on <body>, outside .ab-page, so it uses the literal stack */
+.ab-modal .ab-modal__name { font-family: "Libre Franklin", sans-serif; font-weight: 600; letter-spacing: -0.01em; }
+.ab-modal .ab-modal__mono { font-family: "Libre Franklin", sans-serif; font-weight: 700; }
+
+/* Our Perspective: same thin-line label as the Capabilities page; the inline style moved here */
+.ab-page .ab-persp .ab-label2 { --lc: #0b2236; margin-bottom: 26px; min-height: 52px; }
+.ab-page .ab-persp__lead {
+  font-family: "Libre Franklin", sans-serif; font-size: 16px; font-style: italic; font-weight: 600;
+}
+
+/* ----------------------------------------------------------
+   2 · SHAPES — no circles, arches, rounded or D-shaped forms
+   ---------------------------------------------------------- */
+
+/* Who We Are: slanted panel instead of an arch (same cut as the Perspective photo) */
+.ab-win__photo { border-radius: 0; clip-path: polygon(0 0, 100% 0, 100% 92%, 0 100%); }
+.ab-win.is-pin .ab-win__photo { clip-path: polygon(64% 14%, 93% 14%, 93% 79%, 58% 86%); }
+.ab-win.is-pin .ab-win__frame {
+  border: 0; border-radius: 0;
+  background: linear-gradient(135deg, rgba(229, 192, 88, 0.95), rgba(197, 152, 26, 0.7));
+  clip-path: polygon(17% 0, 100% 0, 100% 90%, 0 100%);
+}
+/* the dark scrim on the photo is now warm plum instead of black */
+.ab-win.is-pin .ab-win__shade {
+  background: linear-gradient(180deg, rgb(242 242 242) 0%, rgb(255 255 255 / 81%) 24%, rgb(255 255 255 / 0%) 42%, rgba(154, 0, 100, 0.35) 60%, rgba(74, 0, 50, 0.68) 100%);
+}
+
+/* icons: square caps and mitred joins everywhere */
+.ab-page .ab-win__ico svg,
+.ab-page .ab-need__ico svg { stroke-linecap: square; stroke-linejoin: miter; }
+
+/* How We Work: the tile's ring becomes a diamond */
+.ab-page .ab-need__accent::before {
+  width: 46%; border-radius: 0; transform: rotate(45deg); border-color: rgba(229, 192, 88, 0.6);
+}
+
+/* Experience: hexagon stays (angular); the round rotating badge is a square gold tile with a cut corner */
+.ab-page .ab-xp__badge {
+  width: 76px; height: 76px; right: -10px; bottom: 8%; border-radius: 0; box-shadow: none;
+  clip-path: polygon(0 0, calc(100% - 22px) 0, 100% 22px, 100% 100%, 0 100%);
+}
+.ab-page .ab-xp__badge i { width: 16px; height: 16px; background: #6e0048; transform: rotate(45deg); }
+/* dotted pattern -> fine diagonal lines (dots read as circles) */
+.ab-page .ab-exp {
+  background:
+    repeating-linear-gradient(135deg, rgba(59, 36, 56, 0.045) 0 1px, transparent 1px 30px),
+    linear-gradient(160deg, var(--ab-blush) 0%, #f5eae5 100%);
+}
+
+/* Leadership: square monograms with chamfered corners */
+.ab-page .ab-pcard__mono {
+  border-radius: 0; box-shadow: none;
+  clip-path: polygon(0 0, calc(100% - 24px) 0, 100% 24px, 100% 100%, 24px 100%, 0 calc(100% - 24px));
+}
+
+/* profile pop-up: straight card, slanted edge on the identity panel */
+.ab-modal .ab-modal__card { border-radius: 0; }
+.ab-modal .ab-modal__side {
+  border-radius: 0;
+  clip-path: polygon(0 0, 100% 0, calc(100% - 56px) 100%, 0 100%);
+}
+@media (min-width: 768px) {
+  .ab-modal .ab-modal__side { flex-basis: 350px; padding-right: 80px; }
+}
+@media (max-width: 767px) {
+  .ab-modal .ab-modal__card { border-radius: 0; }
+  .ab-modal .ab-modal__side {
+    border-radius: 0; padding-bottom: 40px;
+    clip-path: polygon(0 0, 100% 0, 100% calc(100% - 22px), 0 100%);
+  }
+}
+
+/* ----------------------------------------------------------
+   3 · BACKGROUNDS — light, warm, gradient overlay (no dark blocks)
+   ---------------------------------------------------------- */
+
+/* Values: warm light gradient with the faded architectural photo; angular slanted top edge (was a wave) */
+.ab-page .ab-vals {
+  color: var(--ab-ink);
+  background: linear-gradient(160deg, #f6e9d9 0%, #ffffff 52%, #f3dfe9 100%);
+  -webkit-mask: none; mask: none;
+  clip-path: polygon(0 var(--ab-cut), 100% 0, 100% 100%, 0 100%);
+}
+.ab-page .ab-vals__bg img { opacity: 0.55; }
+.ab-page .ab-vals__bg::after {
+  background: linear-gradient(160deg, rgba(246, 233, 217, 0.92) 0%, rgba(255, 255, 255, 0.82) 50%, rgba(243, 223, 233, 0.9) 100%);
+}
+.ab-page .ab-vals .ab-label2--light { --lc: #2d0a2a; }
+.ab-page .ab-vals .ab-hd--light .ab-hd__title { color: #2d0a2a; }
+.ab-page .ab-vals .ab-hd--light .ab-hd__title em { color: #9a0064; }
+.ab-page .ab-vals .ab-hd--light .ab-hd__lead { color: #3a2436; }
+.ab-page .ab-stars { display: none; }          /* twinkling round dots: removed */
+
+/* Values cards: square, gold top edge, gold corner tile (replaces the 0/28px rounded corners) */
+.ab-page .ab-vals .ab-vals__card,
+.ab-page .ab-vals .ab-vals__card:hover {
+  border-radius: 0;
+  box-shadow: inset 0 3px 0 var(--ab-gold-lt), 0 14px 34px rgba(120, 20, 80, 0.12);
+}
+.ab-page .ab-vals .ab-vals__card:hover {
+  box-shadow: inset 0 3px 0 var(--ab-gold-lt), 0 22px 48px rgba(120, 20, 80, 0.2);
+}
+.ab-page .ab-vals .ab-vals__mark {
+  display: block; position: absolute; z-index: 3; right: 0; bottom: 0; width: 44px; height: 44px; margin: 0;
+  background: linear-gradient(135deg, var(--ab-gold-lt), var(--ab-gold)); transform: none;
+  clip-path: polygon(100% 0, 100% 100%, 0 100%);
+  transition: width 0.4s ease, height 0.4s ease;
+}
+.ab-page .ab-vals .ab-vals__card:hover .ab-vals__mark { width: 66px; height: 66px; transform: none; }
+
+/* Thought Behind Our Name: light warm gradient that fades into the galaxy video (client request); angular stairs instead of constellation nodes */
+.ab-page .nm-sec {
+  color: #2d0a2a;
+  background:
+    repeating-linear-gradient(135deg, rgba(154, 0, 100, 0.035) 0 1px, transparent 1px 34px),
+    linear-gradient(180deg, var(--nm-bg) 0%, #f7ebee 100%);
+}
+.ab-page .nm-label span { color: #9a0064; }
+.ab-page .nm-line { stroke: rgba(154, 0, 100, 0.3); stroke-linejoin: miter; stroke-linecap: square; }
+.ab-page .nm-ghost { -webkit-text-stroke: 1.5px rgba(154, 0, 100, 0.16); }
+.ab-page .nm-g--l .nm-l { color: #2d0a2a; }
+.ab-page .nm-g--r .nm-l {
+  background: none; -webkit-background-clip: border-box; background-clip: border-box;
+  color: #9a0064; -webkit-text-fill-color: #9a0064;
+}
+.ab-page .nm-beam { background: linear-gradient(180deg, transparent, #c5981a); }
+.ab-page .nm-star { filter: drop-shadow(0 6px 14px rgba(197, 152, 26, 0.45)); }
+.ab-page .nm-star path { fill: #c5981a; }
+.ab-page .nm-cap__k { color: #a67c0a; }
+.ab-page .nm-cap__big { color: #2d0a2a; }
+.ab-page .nm-cap__s { color: #3a2436; }
+.ab-page .nm-statement { color: #2d0a2a; }
+.ab-page .nm-statement em { color: #9a0064; }
+.ab-page .nm-text { border-left-color: #c5981a; }
+.ab-page .nm-text p { color: #3a2436; }
+.ab-page .nm-text .nm-lead { color: #2d0a2a; }
+
+/* Get in Touch: light warm gradient over the faded photo; angular diamond reveal (was a circular iris);
+   square corner-cut tile instead of the round rotating badge */
+.ab-page .ab-cta { color: #2d0a2a; }
+.ab-page .ab-cta__iris {
+  background:
+    linear-gradient(180deg, rgba(239, 227, 225, 0.96) 0%, rgba(250, 240, 236, 0.86) 55%, rgba(229, 192, 88, 0.4) 100%),
+    url("../images/vidhitra/about/perspect.jpeg") center / cover no-repeat;
+  clip-path: polygon(var(--ix) var(--iy), var(--ix) var(--iy), var(--ix) var(--iy), var(--ix) var(--iy));
+}
+.ab-page .ab-cta.is-in .ab-cta__iris {
+  clip-path: polygon(
+    var(--ix) calc(var(--iy) - 220vmax),
+    calc(var(--ix) + 220vmax) var(--iy),
+    var(--ix) calc(var(--iy) + 220vmax),
+    calc(var(--ix) - 220vmax) var(--iy)
+  );
+}
+.ab-page .ab-cta .ab-label,
+.ab-page .ab-cta .ab-label--light { color: #9a0064; }
+.ab-page .ab-cta__title { color: #2d0a2a; }
+.ab-page .ab-cta__text { color: #3a2436; }
+.ab-page .ab-cta__track span { -webkit-text-stroke: 1.5px rgba(154, 0, 100, 0.3); }
+.ab-page .ab-cta__badge {
+  width: 104px; height: 104px; border-radius: 0; box-shadow: none;
+  clip-path: polygon(0 0, calc(100% - 28px) 0, 100% 28px, 100% 100%, 0 100%);
+}
+.ab-page .ab-cta__badge:hover, .ab-page .ab-cta__badge:focus-visible { transform: translateY(-4px); }
+.ab-page .ab-cta__badge i { font-size: 26px; }
+
+@media (prefers-reduced-motion: reduce) {
+  .ab-page .ab-cta__iris { clip-path: none; }
+}
+
+/* once the galaxy video has faded in, text and lines switch to light so they stay readable */
+.ab-page .nm-sec .nm-label span,
+.ab-page .nm-sec .nm-g .nm-l,
+.ab-page .nm-sec .nm-cap__k,
+.ab-page .nm-sec .nm-cap__big,
+.ab-page .nm-sec .nm-cap__s,
+.ab-page .nm-sec .nm-statement,
+.ab-page .nm-sec .nm-statement em,
+.ab-page .nm-sec .nm-text p,
+.ab-page .nm-sec .nm-text .nm-lead { transition: color .5s ease, -webkit-text-fill-color .5s ease; }
+.ab-page .nm-sec.is-galaxy .nm-label span { color: #f0d27a; }
+.ab-page .nm-sec.is-galaxy .nm-g--l .nm-l { color: #fff; }
+.ab-page .nm-sec.is-galaxy .nm-g--r .nm-l { color: #f0d27a; -webkit-text-fill-color: #f0d27a; }
+.ab-page .nm-sec.is-galaxy .nm-cap__k { color: #f0d27a; }
+.ab-page .nm-sec.is-galaxy .nm-cap__big,
+.ab-page .nm-sec.is-galaxy .nm-statement,
+.ab-page .nm-sec.is-galaxy .nm-text .nm-lead { color: #fff; }
+.ab-page .nm-sec.is-galaxy .nm-cap__s,
+.ab-page .nm-sec.is-galaxy .nm-text p { color: rgba(255,255,255,.88); }
+.ab-page .nm-sec.is-galaxy .nm-statement em { color: #f0d27a; }
+.ab-page .nm-sec.is-galaxy .nm-text { border-left-color: #f0d27a; }
+.ab-page .nm-sec.is-galaxy .nm-line { stroke: rgba(240,210,122,.45); }
+.ab-page .nm-sec.is-galaxy .nm-star { filter: drop-shadow(0 0 18px rgba(240,210,122,.7)); }
+.ab-page .nm-sec.is-galaxy .nm-star path { fill: #f0d27a; }
+.ab-page .nm-sec.is-galaxy .nm-beam { background: linear-gradient(180deg, transparent, #f0d27a); }

@@ -1,0 +1,113 @@
+/* ==========================================================
+   VIDHITRA — STANDARD CTA BUTTONS (site-wide)
+   Shape = Goodwin reference button ("SUBSCRIBE FOR UPDATES"):
+   rectangle, thin border, TOP-LEFT + BOTTOM-RIGHT corners rounded,
+   top-right + bottom-left corners square, spaced capitals.
+   Brand colours only (magenta + gold) — never green.
+
+   .vd-btn.vd-btn--primary     Primary CTA   (Get in Touch, Discuss Your Requirement, Send / Submit Enquiry)
+   .vd-btn.vd-btn--secondary   Secondary CTA (Explore FGC, Our Approach, View Our Experience, Close)
+   + .vd-btn--on-dark          either one on magenta / dark / photo backgrounds
+   .vd-link                    Text link, NOT a button (Read More, Read Article, View Details, Explore capability)
+
+   States: default · hover · pressed (:active) · keyboard focus · disabled
+   Load this AFTER the page stylesheets.
+   ========================================================== */
+
+:root {
+  --vd-mag: #9a0064;
+  --vd-mag-dk: #7a004f;
+  --vd-mag-xdk: #5e003c;
+  --vd-gold: #c5981a;
+  --vd-gold-lt: #e5c058;
+  --vd-gold-dk: #a67f12;
+  --vd-pink: #f7ebf3;        /* hover tint, from the "All topics" reference */
+  --vd-pink-dk: #ecd3e4;     /* pressed tint */
+  --vd-r: 14px;              /* Goodwin corner radius (≈30% of button height) */
+}
+
+/* ---------- base: Goodwin shape ---------- */
+html body .vd-btn {
+  position: relative; box-sizing: border-box;
+  display: inline-flex; align-items: center; justify-content: center; gap: 10px;
+  flex: 0 0 auto; width: auto;
+  min-height: 46px; padding: 14px 32px; margin: 0;
+  border: 1px solid transparent;
+  border-radius: var(--vd-r) 0 var(--vd-r) 0;
+  font: 500 13px/1 "Libre Franklin", sans-serif;
+  letter-spacing: 0.12em; text-transform: uppercase; text-decoration: none; white-space: nowrap;
+  cursor: pointer; box-shadow: none; transform: none;
+  -webkit-tap-highlight-color: transparent;
+  transition: background-color .25s ease, color .25s ease, border-color .25s ease, box-shadow .25s ease;
+}
+html body .vd-btn::before, html body .vd-btn::after { content: none; animation: none; }
+html body .vd-btn i, html body .vd-btn svg { display: none; }       /* no icons inside CTAs: clean editorial finish */
+html body .vd-btn:focus { outline: none; }
+html body .vd-btn:focus-visible { outline: 2px solid var(--vd-gold); outline-offset: 3px; }
+html body .vd-btn .btn_text, html body .vd-btn .btn_text span { all: unset; }   /* submit button keeps .btn_text for contact.js */
+html body .vd-btn .btn_icon { display: none; }                      /* kept in the markup only so contact.js still finds it */
+html body .vd-btn:disabled, html body .vd-btn[aria-disabled="true"] { opacity: .55; cursor: not-allowed; pointer-events: none; }
+html body .vd-btn.is-loading { opacity: .75; cursor: wait; pointer-events: none; }   /* contact.js sets this while sending */
+
+/* pop-up action rows (disclaimer / thank-you): buttons share the width */
+html body .vd-actions .vd-btn { flex: 1 1 180px; }
+
+/* ---------- PRIMARY (light backgrounds) ---------- */
+html body .vd-btn--primary { background: var(--vd-mag); border-color: var(--vd-mag); color: #fff; }
+html body .vd-btn--primary:hover { background: var(--vd-mag-dk); border-color: var(--vd-gold-lt); color: #fff; }
+html body .vd-btn--primary:active {
+  background: var(--vd-mag-xdk); border-color: var(--vd-mag-xdk); color: #fff;
+  box-shadow: inset 0 2px 6px rgba(0, 0, 0, .28);
+}
+
+/* ---------- SECONDARY (light backgrounds) — "Types" / "All topics" reference ---------- */
+html body .vd-btn--secondary { background: #fff; border-color: var(--vd-gold-lt); color: var(--vd-mag); }
+html body .vd-btn--secondary:hover { background: var(--vd-pink); border-color: var(--vd-gold-lt); color: var(--vd-mag); }
+html body .vd-btn--secondary:active {             /* darker shade + frosted look */
+  background: rgba(236, 211, 228, .78); border-color: var(--vd-gold); color: var(--vd-mag-dk);
+  -webkit-backdrop-filter: blur(8px) saturate(1.2); backdrop-filter: blur(8px) saturate(1.2);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, .6), inset 0 -2px 6px rgba(154, 0, 100, .12);
+}
+
+/* ---------- ON DARK / MAGENTA / PHOTO BACKGROUNDS ---------- */
+html body .vd-btn--primary.vd-btn--on-dark { background: #fff; border-color: var(--vd-gold-lt); color: var(--vd-mag); }
+html body .vd-btn--primary.vd-btn--on-dark:hover { background: var(--vd-pink); border-color: var(--vd-gold-lt); color: var(--vd-mag); }
+html body .vd-btn--primary.vd-btn--on-dark:active {
+  background: var(--vd-pink-dk); border-color: var(--vd-gold); color: var(--vd-mag-dk);
+  box-shadow: inset 0 2px 6px rgba(94, 0, 60, .2);
+}
+
+html body .vd-btn--secondary.vd-btn--on-dark { background: rgba(255, 255, 255, .06); border-color: var(--vd-gold-lt); color: #fff; }
+html body .vd-btn--secondary.vd-btn--on-dark:hover { background: rgba(255, 255, 255, .16); border-color: var(--vd-gold-lt); color: #fff; }
+html body .vd-btn--secondary.vd-btn--on-dark:active {
+  background: rgba(255, 255, 255, .26); border-color: var(--vd-gold); color: #fff;
+  -webkit-backdrop-filter: blur(8px); backdrop-filter: blur(8px);
+}
+
+/* ---------- TEXT LINK (not a button) — "Read story ▸" reference ---------- */
+html body .vd-link,
+.ab-page .ab-pcard__btn.vd-link {
+  display: inline-flex; align-items: center; gap: 6px;
+  padding: 0; border: 0; border-radius: 0; background: none; box-shadow: none;
+  font: 600 15px/1.4 "Libre Franklin", sans-serif; letter-spacing: 0; text-transform: none;
+  color: var(--vd-mag); text-decoration: none; cursor: pointer; white-space: nowrap;
+  transition: color .2s ease;
+}
+html body .vd-link::after { content: "\25B8"; font-size: .85em; transition: transform .2s ease; }   /* ▸ */
+html body .vd-link:hover, .ab-page .ab-pcard__btn.vd-link:hover {
+  background: none; color: var(--vd-mag-dk); text-decoration: underline; text-underline-offset: 4px;
+}
+html body .vd-link:hover::after { transform: translateX(3px); }
+html body .vd-link:active { color: var(--vd-mag-xdk); }
+html body .vd-link:focus-visible { outline: 2px solid var(--vd-gold); outline-offset: 3px; }
+
+/* ---------- About page placement ---------- */
+.ab-page .ab-pcard__btn.vd-link { margin: auto auto 0; }
+.ab-modal__actions { display: flex; flex-wrap: wrap; gap: 12px; }
+
+@media (max-width: 575px) {
+  html body .vd-btn { padding: 13px 24px; font-size: 12px; letter-spacing: .1em; --vd-r: 12px; }
+}
+@media (prefers-reduced-motion: reduce) {
+  html body .vd-btn, html body .vd-link, html body .vd-link::after { transition: none; }
+}

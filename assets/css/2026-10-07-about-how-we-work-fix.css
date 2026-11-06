@@ -1,0 +1,126 @@
+/* ==========================================================
+   HOW WE WORK — FIX (load AFTER about-v2.css)
+   - no fixed-height pinned stage: left column flows naturally, so nothing is clipped or overlaps
+   - right purple panel + circle stay sticky, all 4 nodes always inside the panel
+   - no horizontal lines: each step is its own card
+   Desktop only (>= 992px). Below that, the stacked layout from about-v2.css is used.
+   ========================================================== */
+
+@media (min-width: 992px) {
+
+  /* ---- section: natural height instead of 100vh ---- */
+  .ab-page #how-we-work:not(.is-stack) {
+    height: auto;
+    min-height: 0;
+    display: block;
+    padding: clamp(56px, 7vw, 100px) 0;
+    overflow: clip;           /* clip (not hidden) so position: sticky keeps working */
+  }
+
+  /* ---- purple panel: full section height, behind the sticky circle ---- */
+  .ab-page #how-we-work:not(.is-stack) .ab-orb__bg {
+    display: block;
+    position: absolute;
+    top: 0; right: 0; bottom: 0;
+    width: 40vw;
+    z-index: 0;
+  }
+
+  /* ---- two columns; both stretch to the same height ---- */
+  .ab-page #how-we-work:not(.is-stack) .ab-orb {
+    position: relative;
+    z-index: 1;
+    width: 100%;
+    height: auto;
+    max-width: none;
+    margin: 0;
+    padding: 0 0 0 var(--ab-gut);
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) 40vw;
+    gap: 0;
+    align-items: start;
+  }
+
+  /* ---- LEFT: flows normally ---- */
+  .ab-page #how-we-work:not(.is-stack) .ab-orb__left {
+    display: block;
+    padding-right: clamp(28px, 4vw, 72px);
+    padding-bottom: clamp(24px, 10vh, 120px);
+  }
+  .ab-page #how-we-work:not(.is-stack) .ab-orb__left .ab-win__intro {
+    margin: 0 0 clamp(28px, 4vh, 44px);
+    padding: 0;
+    max-width: 700px;
+  }
+
+  /* ---- steps: separate cards, no divider lines ---- */
+  .ab-page #how-we-work:not(.is-stack) .ab-orb__steps {
+    display: grid;
+    gap: 20px;
+    position: static;
+    min-height: 0;
+    margin: 0;
+    max-width: 640px;
+    counter-reset: abstep;
+  }
+  .ab-page #how-we-work:not(.is-stack) .ab-orb__step {
+    position: relative;
+    inset: auto;
+    display: grid;
+    grid-template-columns: 52px minmax(0, 1fr);
+    column-gap: 18px;
+    align-items: start;
+    min-height: clamp(130px, 20vh, 220px);
+    padding: 22px 26px 24px 22px;
+    margin: 0;
+    background: rgba(255, 255, 255, 0.72);
+    border: 0;                                   /* no horizontal lines */
+    border-bottom: 0;
+    border-left: 4px solid transparent;
+    box-shadow: 0 14px 34px rgba(90, 10, 70, 0.08);
+    opacity: 0.55;
+    transform: none;
+    pointer-events: auto;
+    counter-increment: abstep;
+    transition: opacity 0.4s ease, box-shadow 0.4s ease, border-color 0.4s ease, background 0.4s ease;
+  }
+  .ab-page #how-we-work:not(.is-stack) .ab-orb__step.is-on {
+    opacity: 1;
+    background: #fff;
+    border-left-color: var(--ab-gold);
+    box-shadow: 0 22px 50px rgba(90, 10, 70, 0.16);
+  }
+  .ab-page #how-we-work:not(.is-stack) .ab-orb__txt {
+    background: none; border: 0; box-shadow: none; padding: 0;
+    position: relative; z-index: 1; min-width: 0;
+  }
+  .ab-page #how-we-work:not(.is-stack) .ab-orb__title {
+    margin: 0; padding-top: 8px;
+    font-size: clamp(20px, 1.6vw, 26px); line-height: 1.2;
+  }
+  /* description is always visible, so nothing grows/shrinks and nothing overlaps */
+  .ab-page #how-we-work:not(.is-stack) .ab-orb .ab-orb__text {
+    max-height: none; overflow: visible; opacity: 1;
+    margin: 10px 0 0; padding-left: 14px;
+    font-size: clamp(14px, 0.95vw, 15.5px); line-height: 1.65;
+  }
+  .ab-page #how-we-work:not(.is-stack) .ab-orb__num,
+  .ab-page #how-we-work:not(.is-stack) .ab-orb__dots { display: none; }
+
+  /* ---- RIGHT: sticky, always centred in the visible part of the screen ---- */
+  .ab-page #how-we-work:not(.is-stack) .ab-orb__right {
+    position: sticky;
+    top: var(--ab-top);
+    align-self: start;
+    height: calc(100vh - var(--ab-top));
+    min-height: 420px;
+    display: grid;
+    place-items: center;
+    padding: 0 78px;          /* room for node + label so they never leave the panel */
+  }
+  /* circle sized from BOTH width and height, so all 4 nodes (01-04) always fit */
+  .ab-page #how-we-work:not(.is-stack) .ab-orb__ring {
+    width: max(220px, min(100%, calc(100vh - var(--ab-top) - 160px), 520px));
+    aspect-ratio: 1;
+  }
+}

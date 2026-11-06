@@ -1,0 +1,2250 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="x-ua-compatible" content="ie=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <!-- Primary SEO Meta Tags -->
+  <meta name="description" content="Vidhitra Corporate Advisors LLP is a boutique corporate law practice and Fractional General Counsel — legal advice grounded in business context, for founders, boards and in-house teams across India." />
+  <meta name="keywords" content="Fractional General Counsel, Corporate Advisory, Corporate Law Firm India, Commercial Contracts, Regulatory Compliance, Legal Counsel for Business, Vidhitra Corporate Advisors" />
+  <meta name="author" content="Vidhitra Corporate Advisors LLP" />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://www.vidhitra.com/about.html" />
+
+  <!-- Site Title -->
+  <title>About Us | Vidhitra Corporate Advisors LLP</title>
+
+  <!-- Open Graph / Facebook / LinkedIn -->
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://www.vidhitra.com/about.html" />
+  <meta property="og:title" content="About Us | Vidhitra Corporate Advisors LLP" />
+  <meta property="og:description" content="Who we are, how we work, and the thinking behind Vidhitra Corporate Advisors LLP." />
+  <meta property="og:image" content="assets/images/og-image.jpg" />
+  <meta property="og:site_name" content="Vidhitra Corporate Advisors LLP" />
+  <meta property="og:locale" content="en_IN" />
+
+  <!-- Twitter / X Card -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="About Us | Vidhitra Corporate Advisors LLP" />
+  <meta name="twitter:description" content="Who we are, how we work, and the thinking behind Vidhitra Corporate Advisors LLP." />
+  <meta name="twitter:image" content="assets/images/og-image.jpg" />
+
+  <!-- Theme colour (browser UI tint on mobile) — client brand teal -->
+  <meta name="theme-color" content="#005c59" />
+
+  <!-- Favicons — generated from client logo -->
+  <link rel="icon" type="image/x-icon" href="assets/images/vidhitra/logo.webp" />
+
+  <!-- Google Fonts: Barlow Condensed, DM Serif Display & Libre Franklin -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600&family=DM+Serif+Display:ital@0;1&family=Libre+Franklin:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+  <!-- CSS here -->
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="assets/css/font-awesome-pro.min.css" />
+  <link rel="stylesheet" href="assets/css/animate.css" />
+  <link rel="stylesheet" href="assets/css/solvior-icons.css" />
+  <link rel="stylesheet" href="assets/css/swiper.min.css" />
+  <link rel="stylesheet" href="assets/css/odometer-theme-default.css" />
+  <link rel="stylesheet" href="assets/css/nice-select.css" />
+  <link rel="stylesheet" href="assets/css/venobox.min.css" />
+  <link rel="stylesheet" href="assets/css/meanmenu.css" />
+  <link rel="stylesheet" href="assets/css/main.css" />
+  <link rel="stylesheet" href="assets/css/vidhitra-capabilities.css" />
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <style>
+   .tj-header-area.header-absolute {
+    background-color: white !important;}
+
+    .logo h3 {
+    color: #9A0064 !important;
+}
+
+   .mainmenu ul>li>a {
+    color: #303030 !important;
+}
+
+.mainmenu ul>li>a:hover, .mainmenu ul>li.current-menu-ancestor>a {
+    color: var(--tj-color-gold-alt, --tj-color-gold) !important;
+}
+
+/* ==========================================================
+   ABOUT PAGE — STICKY SUB-NAV (Bain-style page tab bar)
+   The "About Us" label is hidden until the bar goes sticky —
+   it only appears once the bar has pinned under the header.
+   ========================================================== */
+.vd-page-subnav {
+  background: #ffffff;
+  border-bottom: 1px solid rgb(0 0 0 / 11%);
+   border-top: 1px solid rgb(0 0 0 / 11%);
+  position: relative;
+  z-index: 45;
+  width: 100%;
+}
+.vd-page-subnav.is-sticky {
+  position: fixed;
+  left: 0;
+  right: 0;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.08);
+}
+.vd-page-subnav-spacer { display: none; }
+.vd-page-subnav-spacer.is-active { display: block; }
+.vd-page-subnav-inner {
+  display: flex;
+  align-items: center;
+  gap: 36px;
+  padding: 0px 0;
+}
+.vd-page-subnav-title {
+  display: none;
+  color: #9A0064;
+  white-space: nowrap;
+  padding-right: 24px;
+  border-right: 1px solid rgba(0,0,0,0.12);
+  flex-shrink: 0;
+  font-weight: 700;
+}
+.vd-page-subnav.is-sticky .vd-page-subnav-title {
+  display: inline-block;
+  animation: vdTitleFadeIn 0.4s ease;
+}
+@keyframes vdTitleFadeIn {
+  from { opacity: 0; transform: translateX(-10px); }
+  to   { opacity: 1; transform: translateX(0); }
+}
+.vd-page-subnav-tabs {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  overflow-x: auto;
+  scrollbar-width: none;
+}
+.vd-page-subnav-tabs::-webkit-scrollbar { display: none; }
+.vd-page-subnav-tabs li { flex-shrink: 0; }
+.vd-page-subnav-tabs a {
+  display: inline-block;
+  padding: 10px 1px 10px;
+    font-family: "Graphik", Helvetica, sans-serif, Lucida Sans Unicode;
+    font-size: .875rem; 
+  letter-spacing: 0.04em;
+  font-weight: bold;
+  color: #999999;
+  white-space: nowrap;
+  border-bottom: 2px solid transparent;
+  transition: color 0.25s ease, border-color 0.25s ease;
+}
+.vd-page-subnav-tabs a:hover,
+.vd-page-subnav-tabs a.active {
+  color: #005c59;
+  border-color: #c9a24b;
+}
+
+/* ==========================================================
+   SCROLL-REVEAL SYSTEM — every section animates in its own way
+   ========================================================== */
+.vd-reveal {
+  opacity: 0;
+  transition: opacity 0.85s cubic-bezier(0.22,0.61,0.36,1),
+              transform 0.85s cubic-bezier(0.22,0.61,0.36,1);
+  transition-delay: var(--vd-delay, 0s);
+}
+.vd-reveal.is-visible { opacity: 1; transform: none !important; }
+.vd-reveal--up     { transform: translateY(42px); }
+.vd-reveal--left    { transform: translateX(-52px); }
+.vd-reveal--right   { transform: translateX(52px); }
+.vd-reveal--scale   { transform: scale(0.9); }
+.vd-reveal--fade    { transform: translateY(0); }
+
+/* Base section rhythm */
+.vd-about-section {
+  padding: 96px 0;
+  scroll-margin-top: 140px;
+  overflow: hidden;
+}
+
+/* ---- Who We Are : feature grid ---- */
+.vd-feature-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+  gap: 26px;
+  margin-top: 46px;
+}
+.vd-feature-card {
+  padding: 30px 26px;
+  border-radius: 12px;
+  background: #fff;
+  border: 1px solid rgba(0,0,0,0.07);
+  transition: border-color 0.25s ease, transform 0.25s ease;
+}
+.vd-feature-card:hover { border-color: #005c59; transform: translateY(-4px); }
+.vd-feature-icon {
+  width: 50px; height: 50px; border-radius: 50%;
+  background: rgba(0,92,89,0.08); color: #005c59;
+  display: flex; align-items: center; justify-content: center;
+  margin-bottom: 16px;
+}
+.vd-feature-card h4 {  color: #1c1c1c; margin-bottom: 10px; }
+.vd-feature-card p {  color: #565656; line-height: 1.65; margin: 0; }
+
+/* ---- Our Perspective : centred tinted quote block ---- */
+.vd-tint-section { background: rgba(0,92,89,0.04); }
+.vd-quote-block { max-width: 760px; margin: 0 auto; text-align: center; }
+.vd-quote-block .sub-title { display: block; }
+
+.vd-quote-block p {  line-height: 1.85; color: #4a4a4a; margin-bottom: 22px; }
+.vd-quote-block p:last-child { margin-bottom: 0; }
+
+/* ---- How We Work : numbered grid ---- */
+.vd-numbered-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 34px 40px;
+  margin-top: 44px;
+}
+@media (max-width: 767px) { .vd-numbered-grid { grid-template-columns: 1fr; } }
+.vd-numbered-item { display: flex; gap: 18px; }
+.vd-numbered-num { color: #c9a24b; flex-shrink: 0; line-height: 1; }
+.vd-numbered-item h4 {
+   text-transform: uppercase;
+  letter-spacing: 0.04em; font-size: 1rem; color: #005c59; margin-bottom: 8px;
+}
+.vd-numbered-item p {  color: #565656; line-height: 1.65; margin: 0; }
+
+/* ---- Experience : timeline ---- */
+.vd-timeline { position: relative; padding-left: 30px; border-left: 2px solid rgba(201,162,75,0.4); }
+.vd-timeline-item { position: relative; padding-bottom: 32px; }
+.vd-timeline-item:last-child { padding-bottom: 0; }
+.vd-timeline-item::before {
+  content: ''; position: absolute; left: -36px; top: 4px;
+  width: 10px; height: 10px; border-radius: 50%; background: #c9a24b;
+}
+.vd-timeline-item p { line-height: 1.8; color: #4a4a4a; margin: 0; }
+
+/* ---- Leadership : person cards ---- */
+.vd-leaders-intro { max-width: 720px; margin: 0 auto 20px; text-align: center; }
+.vd-leaders-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 34px;
+  margin-top: 44px;
+}
+.vd-leader-card {
+  background: #fff; border: 1px solid rgba(0,0,0,0.07);
+  border-radius: 14px; padding: 38px 32px;
+}
+.vd-leader-avatar {
+  width: 62px; height: 62px; border-radius: 50%; background: #9A0064; color: #fff;
+  display: flex; align-items: center; justify-content: center;
+  margin-bottom: 20px;
+}
+.vd-leader-card h4 { color: #1c1c1c; margin-bottom: 4px; }
+.vd-leader-role {
+  display: block; text-transform: uppercase;
+  letter-spacing: 0.05em; color: #005c59; margin-bottom: 18px;
+}
+.vd-leader-card p {  line-height: 1.72; color: #565656; margin-bottom: 14px; }
+.vd-leader-card p:last-child { margin-bottom: 0; }
+
+/* ---- Values : card grid ---- */
+.vd-values-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 24px;
+  margin-top: 44px;
+}
+.vd-value-card {
+  border: 1px solid rgba(0,0,0,0.08);
+  border-radius: 10px;
+  padding: 28px 24px;
+  transition: border-color 0.25s ease, transform 0.25s ease;
+}
+.vd-value-card:hover { border-color: #005c59; transform: translateY(-4px); }
+.vd-value-card h4 { color: #005c59; margin-bottom: 8px; }
+.vd-value-card p {  color: #565656; line-height: 1.6; margin: 0; }
+
+/* ---- Thought Behind Our Name : dark dramatic block ---- */
+.vd-name-section { background: #04302e; }
+.vd-name-section .sub-title { color: #e3b25f; }
+.vd-name-block { max-width: 820px; margin: 0 auto; text-align: center; }
+.vd-name-block h2 { color: #fff;  }
+.vd-sanskrit-pair { display: flex; justify-content: center; gap: 48px; margin: 28px 0 30px; flex-wrap: wrap; }
+.vd-sanskrit-pair div { text-align: center; }
+.vd-sanskrit-word { display: block; font-style: italic; color: #e3b25f; }
+.vd-sanskrit-mean { display: block;  text-transform: uppercase; letter-spacing: 0.08em;  color: rgba(244,239,230,0.7); margin-top: 4px; }
+.vd-name-block p { color: rgba(244,239,230,0.88);line-height: 1.9; margin-bottom: 18px; }
+.vd-name-block p:last-child { margin-bottom: 0; }
+
+/* ---- CTA polish ---- */
+#cta { padding-top: 0; }
+  </style>
+
+<!-- ============================ PART 1 — CSS ============================ -->
+<style>
+/* Local palette (scoped, built from your existing --tj-* tokens) */
+.va-page,
+.vd-page-subnav {
+  --va-ink: var(--tj-color-border-1);          /* #3A1837 */
+  --va-ink-deep: #9A0064;
+  --va-plum: var(--tj-color-theme-dark);        /* #9A0064 — accents only */
+  --va-gold: var(--tj-color-gold);              /* #C6A15B */
+  --va-gold-2: var(--tj-color-gold-alt);        /* #C5981A */
+  --va-gold-soft: #F3E3BF;
+  --va-beige: var(--tj-color-theme-bg);         /* #F7F5F1 */
+  --va-beige-2: var(--tj-color-theme-bg-2);     /* #F0EDE6 */
+  --va-sand: #E6D9BE;
+  --va-ease: cubic-bezier(.16, 1, .3, 1);
+}
+
+/* Sub-nav: switch active colour from green to gold */
+.vd-page-subnav-tabs a:hover,
+.vd-page-subnav-tabs a.active { color: var(--va-ink); border-color: var(--va-gold); }
+
+/* ---------- shared ---------- */
+.va-sec {
+  position: relative;
+  padding: 120px 0;
+  overflow-x: clip;
+  scroll-margin-top: 150px;
+}
+@media (max-width: 991px) { .va-sec { padding: 80px 0; } }
+
+.va-eyebrow {
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 18px;
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+  letter-spacing: .14em;
+  text-transform: uppercase;
+  color: var(--va-gold-2);
+}
+.va-eyebrow::before {
+  content: "";
+  width: 30px;
+  height: 2px;
+  background: currentColor;
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform .8s var(--va-ease) .2s;
+}
+.va-eyebrow.is-in::before { transform: scaleX(1); }
+
+.va-h2 {
+  margin: 0;
+  font-family: var(--tj-ff-heading);
+  font-size: clamp(32px, 3.6vw, 54px);
+  font-weight: 800;
+  line-height: 1.1;
+  letter-spacing: -.03em;
+  color: var(--va-ink);
+}
+.va-body { margin: 0; font-size: 16.5px; line-height: 1.8; color: var(--tj-color-text-body); }
+.va-rule {
+  display: block;
+  width: 90px;
+  height: 3px;
+  margin: 26px 0;
+  border-radius: 3px;
+  background: linear-gradient(90deg, var(--va-gold), var(--va-gold-soft));
+}
+
+/* ---------- reveal system ---------- */
+.va-anim {
+  opacity: 0;
+  transition: opacity .9s var(--va-ease), transform .9s var(--va-ease), clip-path 1.2s var(--va-ease);
+  transition-delay: var(--d, 0s);
+}
+.va-anim[data-anim="up"]     { transform: translateY(40px); }
+.va-anim[data-anim="left"]   { transform: translateX(-60px); }
+.va-anim[data-anim="right"]  { transform: translateX(60px); }
+.va-anim[data-anim="zoom"]   { transform: scale(.88); }
+.va-anim[data-anim="rise"]   { transform: perspective(900px) translateY(60px) rotateX(14deg); transform-origin: 50% 100%; }
+.va-anim[data-anim="clip"]   { opacity: 1; clip-path: inset(0 100% 0 0); }
+.va-anim[data-anim="reveal"] { opacity: 1; clip-path: inset(100% 0 0 0); }
+.va-anim[data-anim="draw"]   { opacity: 1; transform: scaleX(0); transform-origin: left; }
+.va-anim[data-anim="words"]  { opacity: 1; }
+.va-anim.is-in { opacity: 1; transform: none; clip-path: inset(0 0 0 0); }
+
+.va-w { display: inline-block; overflow: hidden; vertical-align: bottom; padding-bottom: .08em; }
+.va-w > span {
+  display: inline-block;
+  transform: translateY(105%);
+  transition: transform .9s var(--va-ease);
+  transition-delay: calc(var(--i) * 60ms);
+}
+.va-split.is-in .va-w > span { transform: none; }
+
+/* ---------- image frames (arch motif, parallax inside) ---------- */
+.va-img { position: relative; margin: 0; overflow: hidden; background: var(--va-sand); }
+.va-img-in { position: absolute; left: 0; right: 0; top: -10%; height: 120%; }
+.va-img img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transform: scale(1.25);
+  transition: transform 1.8s var(--va-ease);
+  transition-delay: var(--d, 0s);
+}
+.va-img.is-in img { transform: scale(1); }
+.va-arch { border-radius: 240px 240px 22px 22px; }
+
+/* ================= 1. WHO WE ARE ================= */
+.va-who { background: var(--va-beige); }
+.va-watermark {
+  position: absolute;
+  left: -2vw;
+  bottom: -30px;
+  font-family: 'DM Serif Display', serif;
+  font-style: italic;
+  font-size: clamp(120px, 17vw, 280px);
+  line-height: 1;
+  color: transparent;
+  -webkit-text-stroke: 1px rgba(198, 161, 91, .28);
+  white-space: nowrap;
+  pointer-events: none;
+  animation: vaDrift 18s ease-in-out infinite alternate;
+}
+@keyframes vaDrift { to { transform: translateX(8vw); } }
+
+.va-lead {
+  margin: 0;
+  padding-left: 22px;
+  border-left: 3px solid var(--va-gold);
+  font-size: 18px;
+  line-height: 1.8;
+  color: var(--tj-color-text-body);
+}
+
+.va-collage { position: relative; height: 560px; }
+.va-collage .va-img--main { position: absolute; top: 0; right: 0; width: 76%; height: 84%; }
+.va-collage .va-img--sub {
+  position: absolute;
+  left: 0; bottom: 0;
+  width: 46%; height: 44%;
+  border-radius: 22px;
+  border: 8px solid var(--va-beige);
+  box-shadow: 0 30px 60px -30px rgba(58, 24, 55, .45);
+}
+.va-collage-ring {
+  position: absolute;
+  top: -26px; left: 8%;
+  width: 150px; height: 150px;
+  border-radius: 50%;
+  border: 2px dashed var(--va-gold);
+  animation: vaRotate 22s linear infinite;
+}
+.va-collage-badge {
+  position: absolute;
+  right: 6%; bottom: 4%;
+  z-index: 2;
+  padding: 22px 26px;
+  border-radius: 18px;
+  background: var(--va-ink);
+  box-shadow: 0 24px 50px -20px rgba(58, 24, 55, .6);
+  animation: vaBob 5s ease-in-out infinite;
+}
+.va-collage-badge strong {
+  display: block;
+  font-family: var(--tj-ff-heading);
+  font-size: 46px;
+  font-weight: 900;
+  line-height: 1;
+  color: var(--va-gold);
+}
+.va-collage-badge small { display: block; margin-top: 6px; font-size: 13px; letter-spacing: .04em; color: var(--va-gold-soft); }
+@keyframes vaBob { 50% { transform: translateY(-12px); } }
+@keyframes vaRotate { to { transform: rotate(360deg); } }
+
+.va-feature-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 28px; margin-top: 80px; }
+.va-feature { perspective: 900px; }
+.va-feature-inner {
+  position: relative;
+  height: 100%;
+  padding: 40px 32px 38px;
+  overflow: hidden;
+  border-radius: 18px;
+  background: var(--tj-color-common-white);
+  border: 1px solid var(--va-sand);
+  transform: rotateX(var(--rx, 0deg)) rotateY(var(--ry, 0deg));
+  transition: transform .4s var(--va-ease), box-shadow .4s ease, border-color .4s ease;
+}
+.va-feature-inner::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(420px circle at var(--mx, 50%) var(--my, 0%), rgba(198, 161, 91, .22), transparent 45%);
+  opacity: 0;
+  transition: opacity .4s ease;
+  pointer-events: none;
+}
+.va-feature:hover .va-feature-inner { border-color: var(--va-gold); box-shadow: 0 30px 60px -25px rgba(58, 24, 55, .3); }
+.va-feature:hover .va-feature-inner::before { opacity: 1; }
+.va-feature-icon {
+  position: relative;
+  width: 62px; height: 62px;
+  margin-bottom: 26px;
+  border-radius: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+  color: var(--va-ink);
+  background: linear-gradient(135deg, var(--va-gold-soft), var(--va-gold));
+  box-shadow: 0 12px 24px -10px rgba(198, 161, 91, .8);
+  transition: transform .5s var(--va-ease);
+}
+.va-feature:hover .va-feature-icon { transform: rotate(-8deg) scale(1.08); }
+.va-feature h4 { position: relative; margin-bottom: 12px; font-size: 21px; font-weight: 700; color: var(--va-ink); }
+.va-feature p  { position: relative; margin: 0; font-size: 15.5px; line-height: 1.75; color: var(--tj-color-text-body-2); }
+.va-feature-bar {
+  position: absolute;
+  left: 0; bottom: 0;
+  width: 100%; height: 4px;
+  background: linear-gradient(90deg, var(--va-gold), var(--va-gold-2));
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform .6s var(--va-ease);
+}
+.va-feature:hover .va-feature-bar { transform: scaleX(1); }
+
+.va-statement {
+  position: relative;
+  overflow: hidden;
+  margin-top: 60px;
+  display: flex;
+  gap: 26px;
+  align-items: flex-start;
+  padding: 40px 46px;
+  border-radius: 18px;
+  background: var(--va-ink);
+}
+.va-statement::after {                      /* slow gold light sweep */
+  content: "";
+  position: absolute;
+  top: 0; bottom: 0; left: -40%;
+  width: 40%;
+  background: linear-gradient(90deg, transparent, rgba(198, 161, 91, .18), transparent);
+  transform: skewX(-20deg);
+  animation: vaSweep 6s ease-in-out infinite;
+}
+@keyframes vaSweep { 0%, 30% { left: -40%; } 70%, 100% { left: 120%; } }
+.va-statement i { flex-shrink: 0; margin-top: 4px; font-size: 34px; color: var(--va-gold); }
+.va-statement p {
+  position: relative;
+  margin: 0;
+  font-family: 'DM Serif Display', serif;
+  font-style: italic;
+  font-size: clamp(19px, 1.7vw, 24px);
+  line-height: 1.55;
+  color: var(--va-beige);
+}
+
+/* ---------- ticker band ---------- */
+.va-ticker {
+  position: relative;
+  z-index: 2;
+  overflow: hidden;
+  padding: 22px 0;
+  background: var(--va-gold);
+  transform: rotate(-1.2deg);
+  margin: -14px -10px;
+  box-shadow: 0 18px 40px -24px rgba(58, 24, 55, .5);
+}
+.va-ticker-track {
+  display: flex;
+  width: max-content;
+  animation: vaTicker 38s linear infinite;
+}
+.va-ticker:hover .va-ticker-track { animation-play-state: paused; }
+.va-ticker span {
+  padding: 0 28px;
+  font-family: var(--tj-ff-heading);
+  font-size: clamp(18px, 1.8vw, 26px);
+  font-weight: 800;
+  white-space: nowrap;
+  color: var(--va-ink);
+}
+.va-ticker i { font-style: normal; color: var(--tj-color-common-white); font-size: 20px; align-self: center; }
+@keyframes vaTicker { to { transform: translateX(-50%); } }
+
+/* ================= 2. OUR PERSPECTIVE ================= */
+.va-persp { background: var(--tj-color-common-white); }
+.va-orb {
+  position: absolute;
+  border-radius: 50%;
+  filter: blur(90px);
+  opacity: .35;
+  pointer-events: none;
+  animation: vaFloat 14s ease-in-out infinite;
+}
+.va-orb--a { width: 380px; height: 380px; top: 40px; left: -140px; background: var(--va-gold-soft); }
+.va-orb--b { width: 320px; height: 320px; bottom: -60px; right: -80px; background: var(--va-gold); animation-delay: -6s; }
+@keyframes vaFloat { 50% { transform: translate(40px, -30px) scale(1.1); } }
+
+.va-persp-grid { position: relative; display: grid; grid-template-columns: 5fr 7fr; gap: 80px; align-items: start; }
+.va-persp-head { position: sticky; top: 170px; }
+.va-persp-media { position: relative; margin-top: 34px; }
+.va-persp-media .va-img { height: 300px; }
+.va-quote-mark {
+  position: absolute;
+  right: -10px; bottom: -48px;
+  font-family: 'DM Serif Display', serif;
+  font-size: 170px;
+  line-height: .7;
+  color: var(--va-gold);
+  text-shadow: 0 10px 30px rgba(58, 24, 55, .25);
+}
+.va-scrub-p {
+  position: relative;
+  margin: 0;
+  padding: 30px 0 30px 32px;
+  font-size: clamp(19px, 1.6vw, 25px);
+  line-height: 1.6;
+  font-weight: 600;
+}
+.va-scrub-p::before,
+.va-scrub-p::after {
+  content: "";
+  position: absolute;
+  left: 0; top: 0;
+  width: 2px; height: 100%;
+}
+.va-scrub-p::before { background: var(--va-sand); }
+.va-scrub-p::after {
+  background: var(--va-gold);
+  transform: scaleY(var(--p, 0));
+  transform-origin: top;
+}
+.va-sw { color: rgba(58, 24, 55, .16); transition: color .35s ease; }
+.va-sw.is-on { color: var(--va-ink); }
+
+/* ================= 3. HOW WE WORK ================= */
+.va-how { background: var(--va-beige-2); }
+.va-how-grid { display: grid; grid-template-columns: 5fr 7fr; gap: 80px; align-items: start; }
+.va-media {
+  position: sticky;
+  top: 170px;
+  aspect-ratio: 4 / 5;
+  overflow: hidden;
+  background: var(--va-sand);
+}
+.va-media::after {                          /* inner gold frame */
+  content: "";
+  position: absolute;
+  inset: 14px;
+  z-index: 2;
+  border: 1px solid rgba(243, 227, 191, .75);
+  border-radius: 226px 226px 12px 12px;
+  pointer-events: none;
+}
+.va-media img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0;
+  transform: scale(1.14);
+  transition: opacity .8s ease, transform 1.6s var(--va-ease);
+}
+.va-media img.active { opacity: 1; transform: scale(1); }
+.va-media-count {
+  position: absolute;
+  left: 34px; bottom: 30px;
+  z-index: 3;
+  display: flex;
+  align-items: baseline;
+  gap: 8px;
+  font-family: var(--tj-ff-heading);
+  color: var(--tj-color-common-white);
+  text-shadow: 0 4px 20px rgba(0, 0, 0, .4);
+}
+.va-media-count b { font-size: 64px; font-weight: 900; line-height: 1; color: var(--va-gold); }
+.va-media-count span { font-size: 18px; font-weight: 600; }
+.va-media-shade {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  background: linear-gradient(to top, rgba(34, 16, 31, .75), transparent 55%);
+}
+
+.va-how-head .va-body { margin-top: 22px; }
+.va-steps { margin-top: 44px; }
+.va-step {
+  position: relative;
+  display: grid;
+  grid-template-columns: 96px 1fr;
+  gap: 20px;
+  padding: 30px 26px 30px 30px;
+  border-bottom: 1px solid var(--va-sand);
+  opacity: .5;
+  transition: opacity .5s ease, background .5s ease;
+}
+.va-step:first-child { border-top: 1px solid var(--va-sand); }
+.va-step::before {
+  content: "";
+  position: absolute;
+  left: 0; top: 0;
+  width: 3px; height: 100%;
+  background: var(--va-gold);
+  transform: scaleY(0);
+  transform-origin: top;
+  transition: transform .6s var(--va-ease);
+}
+.va-step.is-active { opacity: 1; background: rgba(255, 255, 255, .7); }
+.va-step.is-active::before { transform: scaleY(1); }
+.va-step-num {
+  font-family: var(--tj-ff-heading);
+  font-size: 64px;
+  font-weight: 900;
+  line-height: 1;
+  color: transparent;
+  -webkit-text-stroke: 1.5px var(--va-gold);
+  background: linear-gradient(90deg, var(--va-gold) 50%, transparent 50%);
+  background-size: 200% 100%;
+  background-position: 100% 0;
+  -webkit-background-clip: text;
+          background-clip: text;
+  transition: background-position 1s var(--va-ease);
+}
+.va-step.is-active .va-step-num { background-position: 0 0; }
+.va-step h4 { margin-bottom: 10px; font-size: 20px; font-weight: 800; color: var(--va-ink); }
+.va-step p  { margin: 0; line-height: 1.75; color: var(--tj-color-text-body-2); }
+
+/* ================= 4. EXPERIENCE ================= */
+.va-exp { background: var(--tj-color-common-white); }
+.va-exp-grid { display: grid; grid-template-columns: 5fr 7fr; gap: 80px; align-items: start; }
+.va-exp-head { position: sticky; top: 170px; }
+.va-exp-head .va-body { margin-top: 22px; }
+.va-exp-card { position: relative; margin-top: 34px; }
+.va-exp-card .va-img { height: 260px; border-radius: 20px; }
+.va-exp-tag {
+  position: absolute;
+  left: 20px; bottom: -22px;
+  padding: 14px 22px;
+  border-radius: 14px;
+  background: var(--va-gold);
+  font-family: var(--tj-ff-heading);
+  font-weight: 800;
+  color: var(--va-ink);
+  box-shadow: 0 18px 36px -18px rgba(58, 24, 55, .5);
+  animation: vaBob 5s ease-in-out infinite;
+}
+
+.va-tl { position: relative; padding-left: 58px; }
+.va-tl-track { position: absolute; left: 18px; top: 8px; bottom: 8px; width: 2px; background: var(--va-sand); }
+.va-tl-fill {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(var(--va-gold-soft), var(--va-gold), var(--va-gold-2));
+  transform: scaleY(0);
+  transform-origin: top;
+}
+.va-tl-item { position: relative; padding-bottom: 40px; }
+.va-tl-item:last-child { padding-bottom: 0; }
+.va-tl-dot {
+  position: absolute;
+  left: -49px; top: 26px;
+  width: 20px; height: 20px;
+  border-radius: 50%;
+  background: var(--tj-color-common-white);
+  border: 2px solid var(--va-sand);
+  transition: all .5s var(--va-ease);
+}
+.va-tl-item.is-active .va-tl-dot {
+  background: var(--va-gold);
+  border-color: var(--va-ink);
+  box-shadow: 0 0 0 7px rgba(198, 161, 91, .25);
+  animation: vaPulse 2.4s ease-out infinite;
+}
+@keyframes vaPulse { 50% { box-shadow: 0 0 0 14px rgba(198, 161, 91, 0); } }
+.va-tl-card {
+  padding: 28px 30px;
+  border-radius: 16px;
+  background: var(--va-beige);
+  border: 1px solid var(--va-sand);
+  opacity: .4;
+  transform: translateX(24px);
+  transition: opacity .6s ease, transform .6s var(--va-ease), box-shadow .6s ease, background .6s ease;
+}
+.va-tl-item.is-active .va-tl-card {
+  opacity: 1;
+  transform: none;
+  background: var(--tj-color-common-white);
+  box-shadow: 0 20px 44px -24px rgba(58, 24, 55, .3);
+}
+.va-tl-card p { margin: 0; line-height: 1.8; color: var(--tj-color-text-body); }
+
+/* ================= 5. LEADERSHIP ================= */
+.va-leaders-sec { background: var(--va-beige); }
+.va-leaders-intro { max-width: 760px; margin: 0 auto 60px; text-align: center; }
+.va-leaders-intro .va-body { margin-top: 20px; }
+.va-leaders { display: grid; grid-template-columns: 1fr 1fr; gap: 34px; align-items: start; }
+.va-leader {
+  overflow: hidden;
+  border-radius: 22px;
+  background: var(--tj-color-common-white);
+  border: 1px solid var(--va-sand);
+  transition: transform .5s var(--va-ease), box-shadow .5s ease;
+}
+.va-leader:hover { transform: translateY(-8px); box-shadow: 0 34px 60px -30px rgba(58, 24, 55, .4); }
+.va-leader-top {
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  gap: 22px;
+  padding: 40px 34px 34px;
+  background:
+    linear-gradient(135deg, rgba(34, 16, 31, .94), rgba(58, 24, 55, .86)),
+    url("assets/images/vidhitra/sliders/slide3.png") center / cover;
+}
+.va-leader-top::after {
+  content: "";
+  position: absolute;
+  top: 0; bottom: 0; left: -40%;
+  width: 35%;
+  background: linear-gradient(90deg, transparent, rgba(198, 161, 91, .22), transparent);
+  transform: skewX(-20deg);
+  animation: vaSweep 7s ease-in-out infinite;
+}
+.va-mono {
+  position: relative;
+  z-index: 1;
+  flex: 0 0 88px;
+  height: 88px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'DM Serif Display', serif;
+  font-size: 30px;
+  color: var(--va-ink);
+  background: linear-gradient(135deg, var(--va-gold-soft), var(--va-gold));
+}
+.va-mono::before {
+  content: "";
+  position: absolute;
+  inset: -8px;
+  border-radius: 50%;
+  border: 2px dashed var(--va-gold);
+  animation: vaRotate 16s linear infinite;
+}
+.va-leader-top > div { position: relative; z-index: 1; }
+.va-leader-name { margin: 0 0 12px; font-size: 24px; font-weight: 800; color: var(--tj-color-common-white); }
+.va-roles { display: flex; flex-wrap: wrap; gap: 6px; }
+.va-roles span {
+  padding: 5px 11px;
+  border-radius: 40px;
+  border: 1px solid rgba(198, 161, 91, .6);
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: .03em;
+  color: var(--va-gold-soft);
+}
+.va-leader-body { padding: 32px 34px 34px; }
+.va-leader-body p { margin: 0 0 14px; line-height: 1.78; color: var(--tj-color-text-body-2); }
+.va-more { max-height: 0; overflow: hidden; transition: max-height .7s var(--va-ease); }
+.va-toggle {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 4px;
+  padding: 10px 20px;
+  border: 1px solid var(--va-gold);
+  border-radius: 40px;
+  background: none;
+  font-size: 14px;
+  font-weight: 700;
+  color: var(--va-ink);
+  cursor: pointer;
+  transition: background .3s ease;
+}
+.va-toggle:hover { background: var(--va-gold-soft); }
+.va-toggle i { transition: transform .4s ease; }
+.va-leader.is-open .va-toggle i { transform: rotate(180deg); }
+.va-toggle:focus-visible { outline: 2px solid var(--va-gold); outline-offset: 4px; }
+
+/* ================= 6. VALUES ================= */
+.va-values-sec { background: var(--tj-color-common-white); }
+.va-values-head { display: grid; grid-template-columns: 1fr 1fr; gap: 60px; align-items: end; }
+.va-values { display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; margin-top: 60px; }
+.va-value {
+  position: relative;
+  isolation: isolate;
+  overflow: hidden;
+  padding: 36px 30px 34px;
+  border-radius: 18px;
+  background: var(--va-beige);
+  border: 1px solid var(--va-sand);
+}
+.va-value::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  background: linear-gradient(135deg, var(--va-ink), var(--va-ink-deep));
+  clip-path: circle(0% at 50px 60px);
+  transition: clip-path .7s var(--va-ease);
+}
+.va-value:hover::before { clip-path: circle(150% at 50px 60px); }
+.va-value-icon {
+  width: 54px; height: 54px;
+  margin-bottom: 22px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 22px;
+  color: var(--va-ink);
+  background: var(--va-gold);
+  transition: transform .6s var(--va-ease);
+}
+.va-value.is-in .va-value-icon { animation: vaPop .8s var(--va-ease) both; animation-delay: calc(var(--d, 0s) + .4s); }
+@keyframes vaPop { 0% { transform: scale(0) rotate(-90deg); } 100% { transform: none; } }
+.va-value:hover .va-value-icon { transform: rotate(-12deg) scale(1.1); }
+.va-value h4 { margin-bottom: 10px; font-size: 20px; font-weight: 700; color: var(--va-ink); transition: color .4s ease; }
+.va-value p  { margin: 0; line-height: 1.7; color: var(--tj-color-text-body-2); transition: color .4s ease; }
+.va-value:hover h4 { color: var(--va-gold); }
+.va-value:hover p  { color: rgba(247, 245, 241, .85); }
+
+/* ================= 7. THOUGHT BEHIND OUR NAME ================= */
+.va-name-sec {
+  text-align: center;
+  background:
+    radial-gradient(ellipse at top, rgba(58, 24, 55, .88) 0%, rgba(34, 16, 31, .97) 60%),
+    url("assets/images/vidhitra/sliders/slide1.png") center / cover;
+}
+.va-stars { position: absolute; inset: 0; pointer-events: none; }
+.va-star {
+  position: absolute;
+  border-radius: 50%;
+  background: var(--va-gold);
+  opacity: .15;
+  animation: vaTwinkle 4s ease-in-out infinite;
+}
+@keyframes vaTwinkle { 50% { opacity: .9; transform: scale(1.6); } }
+.va-north {
+  display: inline-block;
+  margin-bottom: 18px;
+  font-size: 38px;
+  line-height: 1;
+  color: var(--va-gold);
+  text-shadow: 0 0 24px rgba(198, 161, 91, .8);
+  animation: vaRotate 12s linear infinite;
+}
+.va-name-block { position: relative; max-width: 860px; margin: 0 auto; }
+.va-name-block .va-eyebrow { color: var(--va-gold); }
+.va-name-block .va-h2 { color: var(--tj-color-common-white); }
+.va-equation {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: clamp(14px, 3vw, 44px);
+  margin: 50px 0 44px;
+}
+.va-eq-part {
+  opacity: 0;
+  transform: translateY(30px) scale(.9);
+  filter: blur(8px);
+  transition: opacity .8s var(--va-ease), transform .8s var(--va-ease), filter .8s ease;
+  transition-delay: var(--d, 0s);
+}
+.va-equation.is-in .va-eq-part { opacity: 1; transform: none; filter: none; }
+.va-term { display: flex; flex-direction: column; align-items: center; }
+.va-term-word {
+  font-family: 'DM Serif Display', serif;
+  font-style: italic;
+  font-size: clamp(40px, 5vw, 72px);
+  line-height: 1.05;
+  color: var(--va-beige);
+}
+.va-term-mean {
+  margin-top: 10px;
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 15px;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+  color: rgba(243, 227, 191, .7);
+}
+.va-op { font-size: clamp(28px, 3vw, 44px); font-weight: 300; color: var(--va-gold); }
+.va-term--result .va-term-word {
+  color: transparent;
+  background: linear-gradient(90deg, var(--va-gold-2), var(--va-gold-soft), var(--va-gold), var(--va-gold-2));
+  background-size: 250% 100%;
+  -webkit-background-clip: text;
+          background-clip: text;
+  animation: vaShine 4s linear infinite;
+  filter: drop-shadow(0 0 22px rgba(198, 161, 91, .45));
+}
+@keyframes vaShine { to { background-position: 250% 0; } }
+.va-name-block p { margin-bottom: 18px; line-height: 1.9; color: rgba(247, 245, 241, .86); }
+.va-name-block p:last-child { margin-bottom: 0; }
+
+/* ================= 8. CTA ================= */
+.va-cta { background: var(--va-beige); padding: 110px 0; }
+.va-cta-card {
+  position: relative;
+  overflow: hidden;
+  isolation: isolate;
+  padding: 90px 60px;
+  border-radius: 28px;
+  text-align: center;
+  background:
+    linear-gradient(120deg, rgba(34, 16, 31, .95), rgba(58, 24, 55, .85)),
+    url("assets/images/vidhitra/banners/footer.png") center / cover;
+}
+.va-marquee {
+  position: absolute;
+  top: 50%; left: 0;
+  z-index: -1;
+  display: flex;
+  white-space: nowrap;
+  transform: translateY(-50%);
+  animation: vaMarquee 32s linear infinite;
+  pointer-events: none;
+}
+.va-marquee span {
+  padding-right: 60px;
+  font-family: var(--tj-ff-heading);
+  font-size: clamp(90px, 11vw, 170px);
+  font-weight: 900;
+  color: transparent;
+  -webkit-text-stroke: 1px rgba(198, 161, 91, .22);
+}
+@keyframes vaMarquee { to { transform: translate(-50%, -50%); } }
+.va-cta .va-h2 { color: var(--tj-color-common-white); }
+.va-cta-card p { max-width: 580px; margin: 20px auto 36px; font-size: 17px; line-height: 1.7; color: rgba(247, 245, 241, .85); }
+.va-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+  padding: 18px 34px;
+  border-radius: 60px;
+  background: var(--va-gold);
+  font-size: 15px;
+  font-weight: 800;
+  letter-spacing: .02em;
+  color: var(--va-ink);
+  box-shadow: 0 18px 40px -16px rgba(198, 161, 91, .7);
+  transition: transform .25s ease-out, background .3s ease;
+}
+.va-btn:hover, .va-btn:focus-visible { background: var(--va-gold-soft); color: var(--va-ink); }
+.va-btn:focus-visible { outline: 2px solid var(--va-gold); outline-offset: 4px; }
+
+/* ---------- responsive ---------- */
+@media (max-width: 991px) {
+  .va-feature-grid,
+  .va-leaders,
+  .va-values-head,
+  .va-persp-grid,
+  .va-how-grid,
+  .va-exp-grid { grid-template-columns: 1fr; gap: 36px; }
+  .va-values { grid-template-columns: repeat(2, 1fr); }
+  .va-persp-head, .va-exp-head, .va-media { position: relative; top: 0; }
+  .va-media { aspect-ratio: 16 / 11; }
+  .va-collage { height: 440px; margin-top: 20px; }
+}
+@media (max-width: 575px) {
+  .va-values { grid-template-columns: 1fr; }
+  .va-collage { height: 360px; }
+  .va-collage-badge strong { font-size: 34px; }
+  .va-step { grid-template-columns: 64px 1fr; padding: 26px 18px; }
+  .va-step-num { font-size: 44px; }
+  .va-statement { flex-direction: column; padding: 30px 26px; }
+  .va-leader-top { flex-direction: column; align-items: flex-start; }
+  .va-cta-card { padding: 64px 24px; }
+}
+
+/* ---------- reduced motion ---------- */
+@media (prefers-reduced-motion: reduce) {
+  .va-page *, .va-page *::before, .va-page *::after { animation: none !important; transition: none !important; }
+  .va-anim, .va-eq-part, .va-tl-card, .va-step { opacity: 1 !important; transform: none !important; filter: none !important; clip-path: none !important; }
+  .va-w > span, .va-img img { transform: none !important; }
+  .va-sw { color: var(--va-ink) !important; }
+}
+</style>
+
+</head>
+
+<body>
+  <div class="mouseCursor cursor-outer"></div>
+  <div class="mouseCursor cursor-inner"><span><i class="tji-angle-left"></i>Drag<i class="tji-angle-right"></i></span>
+  </div>
+
+  <!-- start: Search Popup -->
+  <div class="search_popup">
+    <div class="search_close">
+      <button type="button" class="search_close_btn">
+        <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M17 1L1 17" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+            stroke-linejoin="round" />
+          <path d="M1 1L17 17" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+            stroke-linejoin="round" />
+        </svg>
+      </button>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-xxl-12">
+          <div class="tj_search_wrapper">
+            <div class="search_form">
+              <form action="#">
+                <div class="search_input">
+                  <h4 class="title">Search Blog, projects, Service or people.</h4>
+                  <div class="search-box">
+                    <input class="search-input-field" type="search" placeholder="Search here..." required="">
+                    <button type="submit">
+                      <i class="tji-search"></i>
+                    </button>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="search-popup-overlay"></div>
+  <!-- end: Search Popup -->
+
+<!-- start: Hamburger Menu -->
+<div class="body-overlay"></div>
+<div class="hamburger-area" data-lenis-prevent>
+  <div class="hamburger_bg"></div>
+  <div class="hamburger_wrapper">
+    <div class="hamburger_top d-flex align-items-center justify-content-between">
+      <div class="hamburger_logo">
+        <a href="index.html" class="mobile_logo">
+          <img src="assets/images/vidhitra/logo.webp" alt="Vidhitra Corporate Advisors LLP" />
+        </a>
+      </div>
+      <div class="hamburger_close">
+        <button class="hamburger_close_btn hamburgerCloseBtn"><i class="fa-thin fa-times"></i></button>
+      </div>
+    </div>
+
+    <div class="hamburger_menu">
+      <div class="mobile_menu"></div>
+    </div>
+
+    <div class="hamburger-infos">
+      <h4 class="hamburger-title">Contact info</h4>
+      <div class="contact-info">
+        <div class="contact_item">
+          <span class="subtitle">Email</span>
+          <div class="text"><a class="link" href="mailto:info@vidhitra.com">info@vidhitra.com</a></div>
+        </div>
+        <div class="contact_item">
+          <span class="subtitle">Phone</span>
+          <!-- TODO: insert client's actual phone number once shared -->
+          <div class="text"><a class="link" href="tel:+91XXXXXXXXXX">+91 XXX XXX XXXX</a></div>
+        </div>
+        <div class="contact_item">
+          <span class="subtitle">Presence</span>
+          <div class="text">Pan-India</div>
+        </div>
+      </div>
+    </div>
+    <div class="hamburger-socials">
+      <h4 class="hamburger-title">Follow us</h4>
+      <ul>
+        <!-- TODO: replace # with actual social links once client confirms active profiles -->
+        <li>
+          <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+        </li>
+        <li>
+          <a href="#"><i class="fa-brands fa-instagram"></i></a>
+        </li>
+        <li>
+          <a href="#"><i class="fa-brands fa-twitter"></i></a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+<!-- end: Hamburger Menu -->
+
+<!-- start: Header Area -->
+<header class="tj-header-area header-6 style-6 header-absolute">
+  <div class="header-bottom">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <div class="header-wrapper">
+
+            <!-- logo -->
+            <div class="site-logo">
+              <a class="logo" href="index.html">
+                 <h3 class="align-items-center my-auto" >Vidhitra</h3>
+              </a>
+            </div>
+
+            <!-- main navigation -->
+            <div class="mainmenu d-lg-block d-none" id="main-menu">
+              <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="fractional-general-counsel.html">Fractional General Counsel</a></li>
+                <li class="has-dropdown">
+                  <a href="capabilities.html">Capabilities</a>
+                  <ul class="sub-menu mega-menu-service">
+                    <li>
+                      <a class="mega-menu-service-single" href="corporate-law-strategic-advisory.html">
+                        <span class="mega-menu-service-icon"><i class="tji-business"></i></span>
+                        <span class="mega-menu-service-title">Corporate Law &amp; Strategic Advisory</span>
+                        <span class="mega-menu-service-nav"><i class="fa fa-arrow-right"></i><i class="fa fa-arrow-right"></i></span>
+                      </a>
+                    </li>
+                    <li>
+                      <a class="mega-menu-service-single" href="service-details.html">
+                        <span class="mega-menu-service-icon"><i class="tji-strategic"></i></span>
+                        <span class="mega-menu-service-title">Commercial Contracts &amp; Business Relationships</span>
+                        <span class="mega-menu-service-nav"><i class="fa fa-arrow-right"></i><i class="fa fa-arrow-right"></i></span>
+                      </a>
+                    </li>
+                    <li>
+                      <a class="mega-menu-service-single" href="service-details.html">
+                        <span class="mega-menu-service-icon"><i class="tji-process"></i></span>
+                        <span class="mega-menu-service-title">Infrastructure, Projects &amp; Bids</span>
+                        <span class="mega-menu-service-nav"><i class="fa fa-arrow-right"></i><i class="fa fa-arrow-right"></i></span>
+                      </a>
+                    </li>
+                    <li>
+                      <a class="mega-menu-service-single" href="service-details.html">
+                        <span class="mega-menu-service-icon"><i class="tji-optimization"></i></span>
+                        <span class="mega-menu-service-title">Regulatory Compliance &amp; Business Risk</span>
+                        <span class="mega-menu-service-nav"><i class="fa fa-arrow-right"></i><i class="fa fa-arrow-right"></i></span>
+                      </a>
+                    </li>
+                    <li>
+                      <a class="mega-menu-service-single" href="service-details.html">
+                        <span class="mega-menu-service-icon"><i class="tji-executive"></i></span>
+                        <span class="mega-menu-service-title">Technology, IT &amp; Digital Business</span>
+                        <span class="mega-menu-service-nav"><i class="fa fa-arrow-right"></i><i class="fa fa-arrow-right"></i></span>
+                      </a>
+                    </li>
+                    <li>
+                      <a class="mega-menu-service-single" href="service-details.html">
+                        <span class="mega-menu-service-icon"><i class="tji-leadership"></i></span>
+                        <span class="mega-menu-service-title">Employment &amp; Workforce Matters</span>
+                        <span class="mega-menu-service-nav"><i class="fa fa-arrow-right"></i><i class="fa fa-arrow-right"></i></span>
+                      </a>
+                    </li>
+                    <li>
+                      <a class="mega-menu-service-single" href="service-details.html">
+                        <span class="mega-menu-service-icon"><i class="tji-strategic"></i></span>
+                        <span class="mega-menu-service-title">Market Entry, Startups &amp; Emerging Businesses</span>
+                        <span class="mega-menu-service-nav"><i class="fa fa-arrow-right"></i><i class="fa fa-arrow-right"></i></span>
+                      </a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="has-dropdown current-menu-ancestor">
+                  <a href="about.html">About</a>
+                  <ul class="sub-menu mega-menu-service">
+                    <li>
+                      <a class="mega-menu-service-single" href="about.html">
+                        <span class="mega-menu-service-title">About Vidhitra</span>
+                        <span class="mega-menu-service-nav"><i class="fa fa-arrow-right"></i><i class="fa fa-arrow-right"></i></span>
+                      </a>
+                    </li>
+                    <li>
+                      <a class="mega-menu-service-single" href="the-vidhitra-approach.html">
+                        <span class="mega-menu-service-title">Our Approach</span>
+                        <span class="mega-menu-service-nav"><i class="fa fa-arrow-right"></i><i class="fa fa-arrow-right"></i></span>
+                      </a>
+                    </li>
+                    <li>
+                      <a class="mega-menu-service-single" href="leadership.html">
+                        <span class="mega-menu-service-title">Leadership</span>
+                        <span class="mega-menu-service-nav"><i class="fa fa-arrow-right"></i><i class="fa fa-arrow-right"></i></span>
+                      </a>
+                    </li>
+                  </ul>
+                </li>
+                <li><a href="insights.html">Insights</a></li>
+                <li><a href="faq.html">FAQs</a></li>
+                <li><a href="contact1.html">Contact</a></li>
+              </ul>
+            </div>
+
+            <div class="header_right_info d-none d-md-inline-flex">
+              <button class="header_search d-none d-lg-inline-flex">
+                Explore
+                <i class="tji-search"></i>
+              </button>
+              <button class="menu_btn d-none d-xl-inline-flex">
+                <span class="cubes"><span></span><span></span><span></span><span></span></span>
+              </button>
+            </div>
+
+            <button class="menu_btn d-lg-none hamburgerBtn">
+              <span class="cubes"><span></span><span></span><span></span><span></span></span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+<header class="tj-header-area header-6 style-6 header-duplicate header-sticky">
+  <div class="header-bottom">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <div class="header-wrapper">
+            <div class="site-logo">
+              <a class="logo" href="index.html">
+                 <h3>Vidhitra</h3>
+              </a>
+            </div>
+            <div class="mainmenu d-lg-block d-none">
+              <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="fractional-general-counsel.html">Fractional General Counsel</a></li>
+                <li class="has-dropdown">
+                  <a href="capabilities.html">Capabilities </a>
+                  <ul class="sub-menu mega-menu-service">
+                    <li>
+                      <a class="mega-menu-service-single" href="corporate-law-strategic-advisory.html">
+                        <span class="mega-menu-service-icon"><i class="tji-business"></i></span>
+                        <span class="mega-menu-service-title">Corporate Law &amp; Strategic Advisory</span>
+                        <span class="mega-menu-service-nav"><i class="fa fa-arrow-right"></i><i class="fa fa-arrow-right"></i></span>
+                      </a>
+                    </li>
+                    <li>
+                      <a class="mega-menu-service-single" href="service-details.html">
+                        <span class="mega-menu-service-icon"><i class="tji-strategic"></i></span>
+                        <span class="mega-menu-service-title">Commercial Contracts &amp; Business Relationships</span>
+                        <span class="mega-menu-service-nav"><i class="fa fa-arrow-right"></i><i class="fa fa-arrow-right"></i></span>
+                      </a>
+                    </li>
+                    <li>
+                      <a class="mega-menu-service-single" href="service-details.html">
+                        <span class="mega-menu-service-icon"><i class="tji-process"></i></span>
+                        <span class="mega-menu-service-title">Infrastructure, Projects &amp; Bids</span>
+                        <span class="mega-menu-service-nav"><i class="fa fa-arrow-right"></i><i class="fa fa-arrow-right"></i></span>
+                      </a>
+                    </li>
+                    <li>
+                      <a class="mega-menu-service-single" href="service-details.html">
+                        <span class="mega-menu-service-icon"><i class="tji-optimization"></i></span>
+                        <span class="mega-menu-service-title">Regulatory Compliance &amp; Business Risk</span>
+                        <span class="mega-menu-service-nav"><i class="fa fa-arrow-right"></i><i class="fa fa-arrow-right"></i></span>
+                      </a>
+                    </li>
+                    <li>
+                      <a class="mega-menu-service-single" href="service-details.html">
+                        <span class="mega-menu-service-icon"><i class="tji-executive"></i></span>
+                        <span class="mega-menu-service-title">Technology, IT &amp; Digital Business</span>
+                        <span class="mega-menu-service-nav"><i class="fa fa-arrow-right"></i><i class="fa fa-arrow-right"></i></span>
+                      </a>
+                    </li>
+                    <li>
+                      <a class="mega-menu-service-single" href="service-details.html">
+                        <span class="mega-menu-service-icon"><i class="tji-leadership"></i></span>
+                        <span class="mega-menu-service-title">Employment &amp; Workforce Matters</span>
+                        <span class="mega-menu-service-nav"><i class="fa fa-arrow-right"></i><i class="fa fa-arrow-right"></i></span>
+                      </a>
+                    </li>
+                    <li>
+                      <a class="mega-menu-service-single" href="service-details.html">
+                        <span class="mega-menu-service-icon"><i class="tji-strategic"></i></span>
+                        <span class="mega-menu-service-title">Market Entry, Startups &amp; Emerging Businesses</span>
+                        <span class="mega-menu-service-nav"><i class="fa fa-arrow-right"></i><i class="fa fa-arrow-right"></i></span>
+                      </a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="has-dropdown current-menu-ancestor">
+                  <a href="about.html">About </a>
+                  <ul class="sub-menu">
+                    <li><a href="about.html">About Vidhitra</a></li>
+                    <li><a href="the-vidhitra-approach.html">Our Approach</a></li>
+                    <li><a href="leadership.html">Leadership</a></li>
+                  </ul>
+                </li>
+                <li><a href="insights.html">Insights</a></li>
+                <li><a href="faq.html">FAQs</a></li>
+                <li><a href="contact.html">Contact</a></li>
+              </ul>
+            </div>
+            <div class="header_right_info d-none d-md-inline-flex">
+              <button class="header_search d-none d-lg-inline-flex">
+                Explore
+                <i class="tji-search"></i>
+              </button>
+              <button class="menu_btn d-none d-xl-inline-flex">
+                <span class="cubes"><span></span><span></span><span></span><span></span></span>
+              </button>
+            </div>
+            <button class="menu_btn d-lg-none hamburgerBtn">
+              <span class="cubes"><span></span><span></span><span></span><span></span></span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+<!-- end: Header Area -->
+
+   <main id="primary" class="site-main">
+
+      <!-- start: Breadcrumb Section -->
+      <section class="tj-page-header" data-bg-image="assets/images/vidhitra/breadcrumbs/abt.png">
+         <div class="container">
+            <div class="row">
+               <div class="col-lg-12">
+                  <div class="tj-page-header-content text-center">
+                     <h1 class="tj-page-title text-anim">About Us</h1>
+                     <div class="tj-page-link wow fadeInUp" data-wow-delay="0.1s">
+                        <span><a href="index.html"><span>Home</span></a></span>
+                        <span>/</span>
+                        <span><span>About</span></span>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!-- end: Breadcrumb Section -->
+
+      
+
+<!-- sticky sub-nav (was missing — restored) -->
+<nav class="vd-page-subnav" id="vdPageSubnav">
+  <div class="container">
+    <div class="vd-page-subnav-inner">
+      <span class="vd-page-subnav-title">About Us</span>
+      <ul class="vd-page-subnav-tabs" id="vdPageSubnavTabs">
+        <li><a href="#who-we-are" class="active">Who We Are</a></li>
+        <li><a href="#our-perspective">Our Perspective</a></li>
+        <li><a href="#how-we-work">How We Work</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#leadership">Leadership</a></li>
+        <li><a href="#values">Values</a></li>
+        <li><a href="#thought-behind-name">Thought Behind Our Name</a></li>
+        <li><a href="#cta">Get in Touch</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<div class="vd-page-subnav-spacer" id="vdPageSubnavSpacer"></div>
+
+<div class="va-page">
+
+  <!-- 1. WHO WE ARE -->
+  <section class="va-sec va-who" id="who-we-are">
+    <span class="va-watermark" aria-hidden="true">Vidhitra</span>
+    <div class="container">
+      <div class="row g-5 align-items-center">
+        <div class="col-lg-6">
+          <span class="va-eyebrow va-anim" data-anim="up">Who We Are</span>
+          <h2 class="va-h2 va-anim va-split" data-anim="words">A Boutique Legal Practice for Business</h2>
+          <span class="va-rule va-anim" data-anim="draw" style="--d:.5s"></span>
+          <p class="va-lead va-anim" data-anim="up" style="--d:.3s">Vidhitra is a boutique corporate law practice providing legal advice to businesses across their day-to-day operations, commercial relationships, strategic initiatives, and changing business requirements. We combine legal experience with an understanding of the business context in which legal issues arise.</p>
+        </div>
+        <div class="col-lg-6">
+          <div class="va-collage">
+            <span class="va-collage-ring" aria-hidden="true"></span>
+            <figure class="va-img va-arch va-img--main va-anim" data-anim="reveal">
+              <div class="va-img-in" data-parallax="0.12"><img src="assets/images/vidhitra/about/experience.webp" alt="Advising business leadership" loading="lazy"></div>
+            </figure>
+            <figure class="va-img va-img--sub va-anim" data-anim="reveal" style="--d:.35s">
+              <div class="va-img-in" data-parallax="-0.08"><img src="assets/images/vidhitra/capability/strategy.jpg" alt="Strategic legal discussion" loading="lazy"></div>
+            </figure>
+            <div class="va-collage-badge va-anim" data-anim="zoom" style="--d:.7s">
+              <strong><span class="va-count" data-count="35">0</span>+</strong>
+              <small>Years experience</small>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="va-feature-grid">
+        <article class="va-feature va-anim" data-anim="rise" style="--d:.05s">
+          <div class="va-feature-inner">
+            <span class="va-feature-icon"><i class="tji-business"></i></span>
+            <h4>Business Context</h4>
+            <p>We take the time to understand the business behind each legal matter, including its objectives, commercial environment, relationships, and practical realities.</p>
+            <span class="va-feature-bar"></span>
+          </div>
+        </article>
+        <article class="va-feature va-anim" data-anim="rise" style="--d:.18s">
+          <div class="va-feature-inner">
+            <span class="va-feature-icon"><i class="tji-strategic"></i></span>
+            <h4>Experienced Legal Perspective</h4>
+            <p>We bring experience and practical legal analysis to matters that require more than a technical legal answer, helping clients understand the relevant considerations, implications, and options.</p>
+            <span class="va-feature-bar"></span>
+          </div>
+        </article>
+        <article class="va-feature va-anim" data-anim="rise" style="--d:.31s">
+          <div class="va-feature-inner">
+            <span class="va-feature-icon"><i class="tji-leadership"></i></span>
+            <h4>Long-Term Professional Relationships</h4>
+            <p>Effective legal support is built on trust, accessibility, and a continuing understanding of the organisations we advise — whether on a single matter or an ongoing Fractional General Counsel relationship.</p>
+            <span class="va-feature-bar"></span>
+          </div>
+        </article>
+      </div>
+
+      <div class="va-statement va-anim" data-anim="clip">
+        <i class="fa fa-quote-left" aria-hidden="true"></i>
+        <p>Our work brings together law, business understanding, and practical judgment, with the objective of making legal advice clear, relevant, and useful to the people responsible for running the business.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- gold capability ticker -->
+  <div class="va-ticker" aria-hidden="true">
+    <div class="va-ticker-track">
+      <span>Corporate Law &amp; Strategic Advisory</span><i>✦</i>
+      <span>Commercial Contracts</span><i>✦</i>
+      <span>Infrastructure, Projects &amp; Bids</span><i>✦</i>
+      <span>Regulatory Compliance &amp; Business Risk</span><i>✦</i>
+      <span>Technology, IT &amp; Digital Business</span><i>✦</i>
+      <span>Employment &amp; Workforce Matters</span><i>✦</i>
+      <span>Market Entry &amp; Startups</span><i>✦</i>
+      <span>Corporate Law &amp; Strategic Advisory</span><i>✦</i>
+      <span>Commercial Contracts</span><i>✦</i>
+      <span>Infrastructure, Projects &amp; Bids</span><i>✦</i>
+      <span>Regulatory Compliance &amp; Business Risk</span><i>✦</i>
+      <span>Technology, IT &amp; Digital Business</span><i>✦</i>
+      <span>Employment &amp; Workforce Matters</span><i>✦</i>
+      <span>Market Entry &amp; Startups</span><i>✦</i>
+    </div>
+  </div>
+
+  <!-- 2. OUR PERSPECTIVE — words fill in as you read -->
+  <section class="va-sec va-persp" id="our-perspective">
+    <span class="va-orb va-orb--a" aria-hidden="true"></span>
+    <span class="va-orb va-orb--b" aria-hidden="true"></span>
+    <div class="container">
+      <div class="va-persp-grid">
+        <div class="va-persp-head">
+          <span class="va-eyebrow va-anim" data-anim="up">Our Perspective</span>
+          <h2 class="va-h2 va-anim va-split" data-anim="words">Legal Advice That Goes Beyond the Legal Issue</h2>
+          <div class="va-persp-media">
+            <figure class="va-img va-arch va-anim" data-anim="reveal" style="--d:.2s">
+              <div class="va-img-in" data-parallax="0.1"><img src="assets/images/vidhitra/approach/approach.png" alt="Legal advice in business context" loading="lazy"></div>
+            </figure>
+            <span class="va-quote-mark va-anim" data-anim="zoom" style="--d:.6s" aria-hidden="true">&ldquo;</span>
+          </div>
+        </div>
+        <div>
+          <p class="va-scrub-p">Legal issues rarely exist in isolation. They arise within businesses with commercial objectives, operational realities, relationships, constraints, and competing priorities.</p>
+          <p class="va-scrub-p">We believe legal advice is most useful when it recognises that context. A legal answer should explain not only what the law permits or requires, but also the implications, considerations, and practical choices relevant to the business.</p>
+          <p class="va-scrub-p">Our role is to bring legal expertise and business understanding together, communicate clearly, identify what matters, and provide practical legal guidance that enables clients to consider their options and decide how they wish to proceed.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 3. HOW WE WORK — image swaps with the active step -->
+  <section class="va-sec va-how" id="how-we-work">
+    <div class="container">
+      <div class="va-how-grid">
+        <div>
+          <div class="va-media va-arch va-anim" data-anim="reveal" id="vaHowMedia">
+            <img class="active" src="assets/images/vidhitra/about/coverage.jpg" alt="Direct access to your legal counsel" loading="lazy">
+            <img src="assets/images/vidhitra/capability/contract.jpg" alt="Clear, practical legal advice" loading="lazy">
+            <img src="assets/images/vidhitra/capability/workforce.jpg" alt="Working with leadership teams" loading="lazy">
+            <img src="assets/images/vidhitra/capability/risk.jpeg" alt="Confidential, consistent counsel" loading="lazy">
+            <span class="va-media-shade" aria-hidden="true"></span>
+            <div class="va-media-count" aria-hidden="true"><b id="vaHowNum">01</b><span>/ 04</span></div>
+          </div>
+        </div>
+
+        <div>
+          <div class="va-how-head">
+            <span class="va-eyebrow va-anim" data-anim="up">How We Work</span>
+            <h2 class="va-h2 va-anim va-split" data-anim="words">Clear Advice with Practical Support and Direct Access</h2>
+            <p class="va-body va-anim" data-anim="up" style="--d:.2s">We work closely with the people responsible for running the business, taking a practical and collaborative approach to legal matters. Our role is to understand what needs to be addressed, explain the legal considerations clearly, and provide advice that is useful in the circumstances.</p>
+          </div>
+
+          <div class="va-steps" id="vaSteps">
+            <div class="va-step is-active">
+              <span class="va-step-num">01</span>
+              <div>
+                <h4>Direct and Accessible</h4>
+                <p>We aim to make it easy for clients to seek legal input when they need it, with direct access to the people advising them and clear communication throughout the engagement.</p>
+              </div>
+            </div>
+            <div class="va-step">
+              <span class="va-step-num">02</span>
+              <div>
+                <h4>Practical and Clear</h4>
+                <p>We focus on what the legal position means in practice, highlighting the issues that require attention and explaining the available options without unnecessary complexity.</p>
+              </div>
+            </div>
+            <div class="va-step">
+              <span class="va-step-num">03</span>
+              <div>
+                <h4>Collaborative and Responsive</h4>
+                <p>We work with founders, leadership teams, boards, in-house legal teams, and other advisers as appropriate, coordinating with those involved to help address matters efficiently.</p>
+              </div>
+            </div>
+            <div class="va-step">
+              <span class="va-step-num">04</span>
+              <div>
+                <h4>Consistent and Discreet</h4>
+                <p>We value professional relationships built on trust, confidentiality, reliability, and a continuing understanding of our clients and their requirements.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 4. EXPERIENCE — timeline fills as you scroll -->
+  <section class="va-sec va-exp" id="experience">
+    <div class="container">
+      <div class="va-exp-grid">
+        <div class="va-exp-head">
+          <span class="va-eyebrow va-anim" data-anim="up">Experience</span>
+          <h2 class="va-h2 va-anim va-split" data-anim="words">Experience Built Through Complex Business Situations</h2>
+          <p class="va-body va-anim" data-anim="up" style="--d:.3s">Our experience has been shaped by working closely with businesses through decisions that carry significant legal, commercial, and organisational consequences.</p>
+          <div class="va-exp-card">
+            <figure class="va-img va-anim" data-anim="reveal" style="--d:.3s">
+              <div class="va-img-in" data-parallax="0.1"><img src="assets/images/vidhitra/work-with/3.webp" alt="Advising established businesses" loading="lazy"></div>
+            </figure>
+            <span class="va-exp-tag va-anim" data-anim="zoom" style="--d:.8s">Multi-sector experience</span>
+          </div>
+        </div>
+
+        <div class="va-tl" id="vaTimeline">
+          <span class="va-tl-track" aria-hidden="true"><span class="va-tl-fill"></span></span>
+          <div class="va-tl-item">
+            <span class="va-tl-dot" aria-hidden="true"></span>
+            <div class="va-tl-card"><p>We have advised businesses at different points of change and development, including new ventures being established, organisations entering new markets, businesses undertaking significant transactions or restructuring, and established enterprises responding to changing regulatory, commercial, and operational requirements.</p></div>
+          </div>
+          <div class="va-tl-item">
+            <span class="va-tl-dot" aria-hidden="true"></span>
+            <div class="va-tl-card"><p>This experience has involved working with founders, boards, senior leadership teams, and in-house legal functions, often where the legal question is only one part of a broader business decision.</p></div>
+          </div>
+          <div class="va-tl-item">
+            <span class="va-tl-dot" aria-hidden="true"></span>
+            <div class="va-tl-card"><p>It has also given us exposure to different perspectives within an organisation, from strategic planning and investment decisions to contracts, governance, risk, operations, and disputes — helping us understand how a legal recommendation may affect the wider business.</p></div>
+          </div>
+          <div class="va-tl-item">
+            <span class="va-tl-dot" aria-hidden="true"></span>
+            <div class="va-tl-card"><p>Our experience is therefore not defined only by the matters we have handled, but by the range of business circumstances in which we have had to assess issues, understand competing considerations, and help clients determine a practical way forward.</p></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 5. LEADERSHIP — expandable profiles -->
+  <section class="va-sec va-leaders-sec" id="leadership">
+    <div class="container">
+      <div class="va-leaders-intro">
+        <span class="va-eyebrow va-anim" data-anim="up">Leadership</span>
+        <h2 class="va-h2 va-anim va-split" data-anim="words">The People Advising You</h2>
+        <p class="va-body va-anim" data-anim="up" style="--d:.25s">Vidhitra is led by two experienced legal professionals who bring complementary perspectives and extensive experience advising businesses on complex legal and commercial matters. Their approach combines legal expertise, practical understanding, and direct involvement in client relationships.</p>
+      </div>
+
+      <div class="va-leaders">
+        <article class="va-leader va-anim" data-anim="left" style="--d:.1s">
+          <div class="va-leader-top">
+            <span class="va-mono" aria-hidden="true">SP</span>
+            <div>
+              <h4 class="va-leader-name">Shisham Priyadarshini</h4>
+              <div class="va-roles"><span>Managing Partner</span><span>Fractional General Counsel</span><span>Strategic Legal Advisor</span></div>
+            </div>
+          </div>
+          <div class="va-leader-body">
+            <p>Shisham is the Managing Partner of Vidhitra Corporate Advisors LLP, a boutique corporate law practice providing business-focused legal advisory and Fractional General Counsel services.</p>
+            <p>She brings extensive experience advising businesses on mergers and acquisitions, joint ventures, strategic collaborations, cross-border structuring, investments, and complex commercial transactions, including leading legal due diligence and advising founders, boards, and senior leadership teams on matters involving significant commercial, governance, and organisational considerations.</p>
+            <div class="va-more" id="vaMoreSP">
+              <p>Her broader experience spans corporate structuring, commercial arrangements, shareholder and governance matters, regulatory compliance, internal policies, investigations, ethics, and enterprise risk — across infrastructure, manufacturing, healthcare, logistics, technology, and digital sectors, bringing together transactional experience and a foundation in litigation that informs her approach to identifying and addressing legal risk early.</p>
+              <p>At Vidhitra, she works directly with business leaders and legal teams, believing legal advice is most valuable when it is available early, understood clearly, and considered as part of the decisions a business needs to make.</p>
+            </div>
+            <button type="button" class="va-toggle" aria-expanded="false" aria-controls="vaMoreSP"><span>Read full profile</span> <i class="fa fa-angle-down"></i></button>
+          </div>
+        </article>
+
+        <article class="va-leader va-anim" data-anim="right" style="--d:.2s">
+          <div class="va-leader-top">
+            <span class="va-mono" aria-hidden="true">RP</span>
+            <div>
+              <h4 class="va-leader-name">Resham Priyadarshini</h4>
+              <div class="va-roles"><span>Co-Founder</span><span>Fractional General Counsel</span><span>Strategic Legal Advisor</span></div>
+            </div>
+          </div>
+          <div class="va-leader-body">
+            <p>Resham co-founded Vidhitra Corporate Advisors LLP with the aim of providing businesses with practical, responsive legal support that is informed by both legal requirements and commercial realities.</p>
+            <p>She brings more than two decades of experience across leading law firms, global corporations, financial services, technology businesses, and startups, spanning corporate and commercial matters including cross-border transactions, joint ventures, shareholder arrangements, corporate structuring, regulatory compliance, and legal due diligence.</p>
+            <div class="va-more" id="vaMoreRP">
+              <p>She has particular experience advising IT and IT-enabled services businesses on complex contractual and operational matters, including master service agreements, software licensing, procurement arrangements, data protection, and employment-related issues. Her experience in arbitration and dispute resolution across industries and jurisdictions brings a strong awareness of how legal issues can develop into disputes and the importance of addressing risk early.</p>
+              <p>As a startup co-founder, with one patent granted and another pending, she brings first-hand experience of building and operating an emerging business — an approach to legal advice focused on clarity, practicality, and keeping sight of commercial objectives.</p>
+            </div>
+            <button type="button" class="va-toggle" aria-expanded="false" aria-controls="vaMoreRP"><span>Read full profile</span> <i class="fa fa-angle-down"></i></button>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- 6. VALUES -->
+  <section class="va-sec va-values-sec" id="values">
+    <div class="container">
+      <div class="va-values-head">
+        <div>
+          <span class="va-eyebrow va-anim" data-anim="up">Values</span>
+          <h2 class="va-h2 va-anim va-split" data-anim="words">What Guides Our Work</h2>
+        </div>
+        <p class="va-body va-anim" data-anim="right" style="--d:.2s">Our values are reflected in how we advise, communicate, and build relationships with the businesses we work with.</p>
+      </div>
+
+      <div class="va-values">
+        <div class="va-value va-anim" data-anim="rise" style="--d:.05s">
+          <span class="va-value-icon"><i class="fa fa-lightbulb-o"></i></span>
+          <h4>Clarity Over Complexity</h4>
+          <p>Legal matters can be complex. We aim to make the relevant issues, implications, and options easier to understand, so clients can consider them with greater clarity.</p>
+        </div>
+        <div class="va-value va-anim" data-anim="rise" style="--d:.13s">
+          <span class="va-value-icon"><i class="fa fa-compass"></i></span>
+          <h4>Context Matters</h4>
+          <p>Good legal advice requires an understanding of the circumstances in which a matter arises — the objectives, relationships, constraints, and practical realities relevant to the issue.</p>
+        </div>
+        <div class="va-value va-anim" data-anim="rise" style="--d:.21s">
+          <span class="va-value-icon"><i class="fa fa-cogs"></i></span>
+          <h4>Practicality in Advice</h4>
+          <p>We focus on advice that can be understood and applied in practice, recognising that businesses need clear guidance that works within their commercial and operational realities.</p>
+        </div>
+        <div class="va-value va-anim" data-anim="rise" style="--d:.29s">
+          <span class="va-value-icon"><i class="fa fa-balance-scale"></i></span>
+          <h4>Professional Independence</h4>
+          <p>We provide an objective legal perspective, including where a matter requires difficult questions to be considered or assumptions to be challenged.</p>
+        </div>
+        <div class="va-value va-anim" data-anim="rise" style="--d:.37s">
+          <span class="va-value-icon"><i class="fa fa-handshake-o"></i></span>
+          <h4>Relationships Built on Trust</h4>
+          <p>We value professional relationships founded on accessibility, confidentiality, reliability, and mutual trust — earned through the quality and consistency of our work.</p>
+        </div>
+        <div class="va-value va-anim" data-anim="rise" style="--d:.45s">
+          <span class="va-value-icon"><i class="fa fa-line-chart"></i></span>
+          <h4>Long-Term Perspective</h4>
+          <p>We look beyond the immediate legal question to understand how today's decisions may affect the business, its relationships, and its future requirements.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 7. THOUGHT BEHIND OUR NAME -->
+  <section class="va-sec va-name-sec" id="thought-behind-name">
+    <div class="va-stars" id="vaStars" aria-hidden="true"></div>
+    <div class="container">
+      <div class="va-name-block">
+        <span class="va-north" aria-hidden="true">✦</span><br>
+        <span class="va-eyebrow va-anim" data-anim="up">The Thought Behind Our Name</span>
+        <h2 class="va-h2 va-anim va-split" data-anim="words">Law, with a Sense of Direction</h2>
+
+        <div class="va-equation va-anim" data-anim="words" aria-label="Vidhi, Sanskrit for law, plus Tara, Sanskrit for star, makes Vidhitra">
+          <div class="va-term va-eq-part" style="--d:.1s">
+            <span class="va-term-word">Vidhi</span>
+            <span class="va-term-mean">Sanskrit for law</span>
+          </div>
+          <span class="va-op va-eq-part" style="--d:.45s" aria-hidden="true">+</span>
+          <div class="va-term va-eq-part" style="--d:.7s">
+            <span class="va-term-word">Tara</span>
+            <span class="va-term-mean">Sanskrit for star</span>
+          </div>
+          <span class="va-op va-eq-part" style="--d:1.05s" aria-hidden="true">=</span>
+          <div class="va-term va-term--result va-eq-part" style="--d:1.35s">
+            <span class="va-term-word">Vidhitra</span>
+            <span class="va-term-mean">Our name</span>
+          </div>
+        </div>
+
+        <p class="va-anim" data-anim="up" style="--d:.2s">Together, the words represent more than legal knowledge. They reflect an approach to counsel that brings structure to the present and perspective to what lies ahead.</p>
+        <p class="va-anim" data-anim="up" style="--d:.35s">As fractional counsel, we work close to the business rather than at a distance from it. We seek to understand how the business operates, the priorities guiding it, and the implications of the choices before it — so our advice is legally grounded, commercially considered, and relevant to the direction of the business.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- 8. CTA -->
+  <section class="va-sec va-cta mt-5 pt-5" id="cta">
+    <div class="container">
+      <div class="va-cta-card va-anim" data-anim="zoom">
+        <div class="va-marquee" aria-hidden="true">
+          <span>Start a Professional Relationship</span><span>Start a Professional Relationship</span>
+        </div>
+        <h2 class="va-h2 va-anim va-split" data-anim="words">Start a Professional Relationship</h2>
+        <p>Good legal support begins with understanding. Tell us about your business or legal requirement and we will take the conversation from there.</p>
+        <a href="contact.html" class="va-btn" id="vaMagnet">Let's talk now <i class="fa fa-arrow-right"></i></a>
+      </div>
+    </div>
+  </section>
+
+</div>
+
+
+
+   </main>
+
+<!-- start: Footer -->
+<footer class="tj-footer-area">
+  <div class="">
+
+    <!-- Middle: 4 link columns + contact -->
+    <div class="tj-footer-columns">
+
+      <div class="tj-footer-col">
+        <h4 class="footer-heading">Fractional Legal Counsel</h4>
+        <ul>
+          <li><a href="fractional-general-counsel.html#understanding">Understanding Fractional General Counsel</a></li>
+          <li><a href="fractional-general-counsel.html#engagement-model">The Engagement Model</a></li>
+          <li><a href="fractional-general-counsel.html#how-we-work">How We Work</a></li>
+          <li><a href="capabilities.html">Our Capabilities</a></li>
+          <li><a href="who-we-work-with.html">Who We Support</a></li>
+          <li><a href="the-vidhitra-approach.html">Our Approach</a></li>
+        </ul>
+      </div>
+
+      <div class="tj-footer-col">
+        <h4 class="footer-heading">Capabilities</h4>
+        <ul>
+          <li><a href="corporate-law-strategic-advisory.html">Corporate Law &amp; Strategic Advisory</a></li>
+          <li><a href="service-details.html">Infrastructure, Projects &amp; Bid Advisory</a></li>
+          <li><a href="service-details.html">Commercial Contracts &amp; Contracting Systems</a></li>
+          <li><a href="service-details.html">Regulatory Compliance &amp; Risk Advisory</a></li>
+          <li><a href="service-details.html">Technology, IT &amp; Digital Business</a></li>
+          <li><a href="service-details.html">Employment &amp; Workforce Advisory</a></li>
+          <li><a href="service-details.html">Market Entry, Startups &amp; Emerging Businesses</a></li>
+        </ul>
+      </div>
+
+      <div class="tj-footer-col">
+        <h4 class="footer-heading">Firm</h4>
+        <ul>
+          <li><a href="about.html">About Vidhitra</a></li>
+          <li><a href="the-vidhitra-approach.html">Our Approach</a></li>
+          <li><a href="leadership.html">Leadership</a></li>
+          <li><a href="insights.html">Insights</a></li>
+          <li><a href="faq.html">FAQs</a></li>
+        </ul>
+      </div>
+
+      <div class="tj-footer-col">
+        <h4 class="footer-heading">Legal Information</h4>
+        <ul>
+          <li><a href="disclaimer.html">Disclaimer</a></li>
+          <li><a href="terms-of-use.html">Terms of Use</a></li>
+          <li><a href="privacy-policy.html">Privacy Policy</a></li>
+          <li><a href="cookie-policy.html">Cookie Policy</a></li>
+        </ul>
+      </div>
+
+      <div class="tj-footer-col tj-footer-contact">
+        <h4 class="footer-heading">Contact Details</h4>
+        <ul>
+          <li><a href="mailto:info@vidhitra.com">info@vidhitra.com</a></li>
+          <!-- TODO: insert client's actual phone number once shared -->
+          <li><a href="tel:+91XXXXXXXXXX">+91 XXX XXX XXXX</a></li>
+          <ul class="tj-footer-socials">
+          <!-- TODO: replace # with actual social links once client confirms active profiles -->
+          <li><a href="#" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a></li>
+          <li><a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a></li>
+          <li><a href="#" aria-label="Twitter"><i class="fa-brands fa-twitter"></i></a></li>
+        </ul>
+        </ul>
+      </div>
+
+    </div>
+
+    <!-- Large outlined brand wordmark -->
+    <div class="tj-footer-wordmark wow fadeInUp" data-wow-delay="0.1s">
+      <span>VIDHITRA</span>
+    </div>
+
+    <!-- Bottom bar -->
+    <div class="tj-footer-bottom ">
+      <p class="text-white mb-0 text-bold">&copy; <span id="tjFooterYear">2026</span> Vidhitra Corporate Advisors LLP. All rights reserved.</p>
+      <p class="text-white mb-0 text-bold">Developed By <a href="https://hsdigitalmedia.com/" target="_blank">HS Digital Media®</a></p>
+    </div>
+
+  </div>
+</footer>
+<!-- end: Footer -->
+
+<script>
+  // Auto-updates the copyright year — no manual edits needed each year
+  document.getElementById('tjFooterYear').textContent = new Date().getFullYear();
+</script>
+
+  <!-- ============ DISCLAIMER GATE ============ -->
+  <div class="vd-popup-overlay" id="vdPopupOverlay">
+    <div class="vd-popup-wrap" id="vdPopupWrap">
+      <div class="vd-popup-shape-big"></div>
+      <div class="vd-popup-shape-small"></div>
+
+      <div class="vd-popup-card" id="vdPopupCard" role="dialog" aria-modal="true" aria-labelledby="vdPopupTitle">
+        <p class="vd-eyebrow">Website Disclaimer</p>
+        <h2 class="vd-popup-title" id="vdPopupTitle">Welcome to Vidhitra Corporate Advisors LLP</h2>
+
+        <p class="vd-popup-text">
+          The content on this website is provided for general informational purposes only and should not be relied
+          upon as legal advice. Accessing or using this website does not create an advocate-client relationship
+          with Vidhitra Corporate Advisors LLP.
+        </p>
+
+        <p class="vd-popup-text">
+          We encourage you to review our Website Disclaimer, Terms of Use, Privacy Policy, and Cookie Policy to
+          understand the terms governing your use of this website and how we collect, use, and protect your
+          personal data. <a class="vd-readmore" href="/policies" target="_blank" rel="noopener">Read More</a>
+        </p>
+
+        <div class="vd-actions">
+          <button type="button" class="vd-btn vd-btn-primary" id="vdEnterBtn">Enter Website</button>
+          <button type="button" class="vd-btn vd-btn-secondary" id="vdExitBtn">Exit Website</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- JS here -->
+  <script src="assets/js/jquery.min.js"></script>
+  <script src="assets/js/bootstrap.bundle.min.js"></script>
+
+  <script src="assets/js/gsap.min.js"></script>
+  <script src="assets/js/gsap-scroll-to-plugin.min.js"></script>
+  <script src="assets/js/gsap-scroll-trigger.min.js"></script>
+  <script src="assets/js/gsap-split-text.min.js"></script>
+  <script src="assets/js/smooth-scroll.min.js"></script>
+
+  <script src="assets/js/appear.min.js"></script>
+  <script src="assets/js/wow.min.js"></script>
+  <script src="assets/js/odometer.min.js"></script>
+  <script src="assets/js/jquery-knob.js"></script>
+  <script src="assets/js/swiper.min.js"></script>
+  <script src="assets/js/nice-select.js"></script>
+  <script src="assets/js/venobox.min.js"></script>
+  <script src="assets/js/meanmenu.js"></script>
+  <script src="assets/js/main.js?v=3"></script>
+  <script src="assets/js/disclaimer.js"></script>
+  <script src="assets/js/vidhitra-capabilities.js"></script>
+
+  <script>
+    // ==========================================================
+    // ABOUT PAGE SUB-NAV — sticky pin under main header + scroll-spy
+    // The "About Us" label only appears once .is-sticky is added
+    // (handled purely via CSS, see .vd-page-subnav.is-sticky rule).
+    // ==========================================================
+    (function () {
+      const subnav = document.getElementById('vdPageSubnav');
+      const spacer = document.getElementById('vdPageSubnavSpacer');
+      const tabsWrap = document.getElementById('vdPageSubnavTabs');
+      if (!subnav || !tabsWrap) return;
+
+      const tabs = Array.from(tabsWrap.querySelectorAll('a'));
+      const sections = tabs
+        .map((a) => document.querySelector(a.getAttribute('href')))
+        .filter(Boolean);
+
+      const stickyHeader = document.querySelector('.header-duplicate');
+
+      let subnavTop = 0;
+      let headerHeight = 0;
+      let subnavHeight = subnav.offsetHeight;
+
+      function measure() {
+        const wasSticky = subnav.classList.contains('is-sticky');
+        if (wasSticky) {
+          subnav.classList.remove('is-sticky');
+          spacer.classList.remove('is-active');
+        }
+        headerHeight = stickyHeader ? stickyHeader.offsetHeight : 0;
+        subnavHeight = subnav.offsetHeight;
+        subnavTop = subnav.getBoundingClientRect().top + window.scrollY;
+        spacer.style.height = subnavHeight + 'px';
+        if (wasSticky) {
+          subnav.classList.add('is-sticky');
+          spacer.classList.add('is-active');
+        }
+      }
+
+      function onScroll() {
+        if (window.scrollY >= subnavTop - headerHeight) {
+          subnav.classList.add('is-sticky');
+          subnav.style.top = headerHeight + 'px';
+          spacer.classList.add('is-active');
+        } else {
+          subnav.classList.remove('is-sticky');
+          subnav.style.top = '';
+          spacer.classList.remove('is-active');
+        }
+      }
+
+      measure();
+      onScroll();
+
+      window.addEventListener('load', () => { measure(); onScroll(); });
+      window.addEventListener('resize', () => { measure(); onScroll(); });
+      window.addEventListener('scroll', onScroll, { passive: true });
+
+      tabs.forEach((tab) => {
+        tab.addEventListener('click', function (e) {
+          e.preventDefault();
+          const target = document.querySelector(this.getAttribute('href'));
+          if (!target) return;
+          const offset = headerHeight + subnavHeight + 20;
+          const top = target.getBoundingClientRect().top + window.scrollY - offset;
+          window.scrollTo({ top, behavior: 'smooth' });
+        });
+      });
+
+      if ('IntersectionObserver' in window && sections.length) {
+        const spy = new IntersectionObserver(
+          (entries) => {
+            entries.forEach((entry) => {
+              if (entry.isIntersecting) {
+                const id = entry.target.getAttribute('id');
+                tabs.forEach((t) =>
+                  t.classList.toggle('active', t.getAttribute('href') === '#' + id)
+                );
+              }
+            });
+          },
+          { rootMargin: '-35% 0px -55% 0px', threshold: 0 }
+        );
+        sections.forEach((sec) => spy.observe(sec));
+      }
+    })();
+  </script>
+
+  <script>
+    // ==========================================================
+    // SCROLL-REVEAL — every .vd-reveal element animates once,
+    // in whichever direction/style its modifier class sets.
+    // ==========================================================
+    (function () {
+      const revealEls = document.querySelectorAll('.vd-reveal');
+      if (!revealEls.length) return;
+
+      if (!('IntersectionObserver' in window)) {
+        revealEls.forEach((el) => el.classList.add('is-visible'));
+        return;
+      }
+
+      const observer = new IntersectionObserver(
+        (entries) => {
+          entries.forEach((entry) => {
+            if (entry.isIntersecting) {
+              entry.target.classList.add('is-visible');
+              observer.unobserve(entry.target);
+            }
+          });
+        },
+        { threshold: 0.15, rootMargin: '0px 0px -60px 0px' }
+      );
+
+      revealEls.forEach((el) => observer.observe(el));
+    })();
+  </script>
+
+
+<!-- ============================ PART 3 — JS ============================ -->
+<script>
+(function () {
+  var root = document.querySelector('.va-page');
+  if (!root) return;
+  var reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  var canHover = window.matchMedia('(hover: hover)').matches;
+
+  /* 1. Split headings into words */
+  root.querySelectorAll('.va-split').forEach(function (el) {
+    var text = el.textContent.trim();
+    el.setAttribute('aria-label', text);
+    el.innerHTML = text.split(/\s+/).map(function (w, i) {
+      return '<span class="va-w" aria-hidden="true"><span style="--i:' + i + '">' + w + '</span></span>';
+    }).join(' ');
+  });
+
+  /* 2. Split perspective paragraphs into words for the reading fill */
+  var scrubPs = root.querySelectorAll('.va-scrub-p');
+  scrubPs.forEach(function (p) {
+    p.innerHTML = p.textContent.trim().split(/\s+/).map(function (w) {
+      return '<span class="va-sw">' + w + '</span>';
+    }).join(' ');
+  });
+
+  /* 3. Counter */
+  function runCount(el) {
+    var target = parseInt(el.getAttribute('data-count'), 10);
+    if (reduce) { el.textContent = target; return; }
+    var start = null;
+    function step(ts) {
+      if (!start) start = ts;
+      var p = Math.min((ts - start) / 1400, 1);
+      el.textContent = Math.round(target * (1 - Math.pow(1 - p, 3)));
+      if (p < 1) requestAnimationFrame(step);
+    }
+    requestAnimationFrame(step);
+  }
+
+  /* 4. Reveal on scroll (one-shot) */
+  var reveal = root.querySelectorAll('.va-anim');
+  function show(el) {
+    el.classList.add('is-in');
+    el.querySelectorAll('.va-count').forEach(runCount);
+  }
+  if (reduce || !('IntersectionObserver' in window)) {
+    reveal.forEach(show);
+  } else {
+    var io = new IntersectionObserver(function (entries) {
+      entries.forEach(function (e) {
+        if (e.isIntersecting) { show(e.target); io.unobserve(e.target); }
+      });
+    }, { threshold: 0.18, rootMargin: '0px 0px -8% 0px' });
+    reveal.forEach(function (el) { io.observe(el); });
+  }
+
+  /* 5. Scroll-linked effects */
+  var parallax = root.querySelectorAll('[data-parallax]');
+  var tl = document.getElementById('vaTimeline');
+  var fill = tl ? tl.querySelector('.va-tl-fill') : null;
+  var tlItems = tl ? tl.querySelectorAll('.va-tl-item') : [];
+  var steps = root.querySelectorAll('#vaSteps .va-step');
+  var mediaImgs = root.querySelectorAll('#vaHowMedia img');
+  var howNum = document.getElementById('vaHowNum');
+  var activeStep = 0;
+
+  function update() {
+    var vh = window.innerHeight;
+
+    // perspective: words fill as the paragraph moves up the screen
+    scrubPs.forEach(function (p) {
+      var r = p.getBoundingClientRect();
+      var prog = reduce ? 1 : Math.min(1, Math.max(0, (vh * 0.85 - r.top) / (vh * 0.5)));
+      var words = p.querySelectorAll('.va-sw');
+      var lit = Math.round(prog * words.length);
+      words.forEach(function (w, i) { w.classList.toggle('is-on', i < lit); });
+      p.style.setProperty('--p', prog);
+    });
+
+    // image parallax
+    if (!reduce) {
+      parallax.forEach(function (el) {
+        var r = el.parentElement.getBoundingClientRect();
+        var off = (r.top + r.height / 2 - vh / 2) * parseFloat(el.getAttribute('data-parallax'));
+        el.style.transform = 'translate3d(0,' + off.toFixed(1) + 'px,0)';
+      });
+    }
+
+    // how we work: step nearest the middle of the screen is active
+    if (steps.length) {
+      var best = 0, bestDist = Infinity;
+      steps.forEach(function (s, i) {
+        var r = s.getBoundingClientRect();
+        var d = Math.abs(r.top + r.height / 2 - vh * 0.5);
+        if (d < bestDist) { bestDist = d; best = i; }
+      });
+      if (best !== activeStep) {
+        activeStep = best;
+        steps.forEach(function (s, i) { s.classList.toggle('is-active', i === best); });
+        mediaImgs.forEach(function (img, i) { img.classList.toggle('active', i === best); });
+        if (howNum) howNum.textContent = '0' + (best + 1);
+      }
+    }
+
+    // experience timeline
+    if (tl && fill) {
+      var tr = tl.getBoundingClientRect();
+      var tprog = reduce ? 1 : Math.min(1, Math.max(0, (vh * 0.6 - tr.top) / tr.height));
+      fill.style.transform = 'scaleY(' + tprog + ')';
+      tlItems.forEach(function (it) {
+        it.classList.toggle('is-active', reduce || it.getBoundingClientRect().top < vh * 0.62);
+      });
+    }
+  }
+  var ticking = false;
+  function onScroll() {
+    if (!ticking) { ticking = true; requestAnimationFrame(function () { ticking = false; update(); }); }
+  }
+  window.addEventListener('scroll', onScroll, { passive: true });
+  window.addEventListener('resize', onScroll, { passive: true });
+  window.addEventListener('load', update);
+  update();
+
+  /* 6. Feature card tilt + spotlight */
+  if (!reduce && canHover) {
+    root.querySelectorAll('.va-feature').forEach(function (card) {
+      var inner = card.querySelector('.va-feature-inner');
+      card.addEventListener('mousemove', function (e) {
+        var r = card.getBoundingClientRect();
+        var x = (e.clientX - r.left) / r.width;
+        var y = (e.clientY - r.top) / r.height;
+        inner.style.setProperty('--ry', ((x - 0.5) * 10) + 'deg');
+        inner.style.setProperty('--rx', ((0.5 - y) * 10) + 'deg');
+        inner.style.setProperty('--mx', (x * 100) + '%');
+        inner.style.setProperty('--my', (y * 100) + '%');
+      });
+      card.addEventListener('mouseleave', function () {
+        inner.style.setProperty('--rx', '0deg');
+        inner.style.setProperty('--ry', '0deg');
+      });
+    });
+  }
+
+  /* 7. Leadership "Read full profile" */
+  root.querySelectorAll('.va-toggle').forEach(function (btn) {
+    btn.addEventListener('click', function () {
+      var card = btn.closest('.va-leader');
+      var more = document.getElementById(btn.getAttribute('aria-controls'));
+      var open = card.classList.toggle('is-open');
+      more.style.maxHeight = open ? more.scrollHeight + 'px' : '0px';
+      btn.setAttribute('aria-expanded', open);
+      btn.querySelector('span').textContent = open ? 'Show less' : 'Read full profile';
+      setTimeout(function () {
+        window.dispatchEvent(new Event('resize'));        // lets the sub-nav re-measure
+        if (window.ScrollTrigger) ScrollTrigger.refresh();
+      }, 750);
+    });
+  });
+
+  /* 8. Star field */
+  var stars = document.getElementById('vaStars');
+  if (stars) {
+    for (var i = 0; i < 70; i++) {
+      var s = document.createElement('span');
+      var size = Math.random() * 3 + 1.5;
+      s.className = 'va-star';
+      s.style.cssText = 'left:' + (Math.random() * 100) + '%;top:' + (Math.random() * 100) +
+        '%;width:' + size + 'px;height:' + size + 'px;animation-delay:' + (Math.random() * 4).toFixed(2) + 's';
+      stars.appendChild(s);
+    }
+  }
+
+  /* 9. Magnetic CTA button */
+  var magnet = document.getElementById('vaMagnet');
+  if (magnet && !reduce && canHover) {
+    magnet.addEventListener('mousemove', function (e) {
+      var r = magnet.getBoundingClientRect();
+      var dx = e.clientX - (r.left + r.width / 2);
+      var dy = e.clientY - (r.top + r.height / 2);
+      magnet.style.transform = 'translate(' + (dx * 0.25) + 'px,' + (dy * 0.35) + 'px)';
+    });
+    magnet.addEventListener('mouseleave', function () { magnet.style.transform = ''; });
+  }
+})();
+</script>
+
+</body>
+</html>
